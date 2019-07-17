@@ -341,8 +341,8 @@
                 "delete_button": "Smazat"
             },
             "config": {
-                "header": "Konfigurace Home Assistant",
-                "introduction": "Zde je možné konfigurovat vaše komponenty a Home Assistant.\nZ uživatelského rozhraní sice zatím není možné konfigurovat vše, ale pracujeme na tom.",
+                "header": "Konfigurace JAVIS Home",
+                "introduction": "Zde je možné konfigurovat vaše komponenty a JAVIS Home.\nZ uživatelského rozhraní sice zatím není možné konfigurovat vše, ale pracujeme na tom.",
                 "core": {
                     "caption": "Obecné",
                     "description": "Ověřte konfigurační soubor a spravujte server",
@@ -359,7 +359,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfigurace se načítá",
-                                "introduction": "Některé části Home Assistant lze načíst bez nutnosti restartování. Načtení zahodí jejich aktuální konfiguraci a načte novou.",
+                                "introduction": "Některé části JAVIS Home lze načíst bez nutnosti restartování. Načtení zahodí jejich aktuální konfiguraci a načte novou.",
                                 "core": "Znovu načíst jádro",
                                 "group": "Znovu načíst skupiny",
                                 "automation": "Znovu načíst automatizace",
@@ -367,13 +367,13 @@
                             },
                             "server_management": {
                                 "heading": "Správa serveru",
-                                "introduction": "Ovládejte svůj Home Assistant server... z Home Assistant.",
+                                "introduction": "Ovládejte svůj JAVIS Home server... z JAVIS Home.",
                                 "restart": "Restartovat",
                                 "stop": "Zastavit"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Editori pois käytöstä, koska asetukset on määritelty configuration.yaml:ssä",
-                                "location_name": "Název instalace Home Assistant",
+                                "location_name": "Název instalace JAVIS Home",
                                 "latitude": "Zeměpisná šířka",
                                 "longitude": "Zeměpisná délka",
                                 "elevation": "Nadmořská výška",
@@ -402,7 +402,7 @@
                     "description": "Vytvářejte a upravujte automatizace",
                     "picker": {
                         "header": "Editor automatizací",
-                        "introduction": "Editor automatizací umožňuje vytvářet a upravovat automatizace. Přečtěte si prosím [pokyny] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), abyste se ujistili, že jste aplikaci Home Assistant nakonfigurovali správně.",
+                        "introduction": "Editor automatizací umožňuje vytvářet a upravovat automatizace. Přečtěte si prosím [pokyny] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), abyste se ujistili, že jste aplikaci JAVIS Home nakonfigurovali správně.",
                         "pick_automation": "Vyberte automatizaci, kterou chcete upravit",
                         "no_automations": "Nelze najít žádnou upravitelnou automatizaci",
                         "add_automation": "Přidat automatizaci",
@@ -416,7 +416,7 @@
                         "alias": "Název",
                         "triggers": {
                             "header": "Spouštěče",
-                            "introduction": "Spouštěče spouštějí zpracování automatizačního pravidla. Pro stejné pravidlo je možné zadat více spouštěčů. Po spuštění spouštěče ověří Home Assistant případné podmínky a zavolá akci. \n\n [Další informace o spouštěčích.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Spouštěče spouštějí zpracování automatizačního pravidla. Pro stejné pravidlo je možné zadat více spouštěčů. Po spuštění spouštěče ověří JAVIS Home případné podmínky a zavolá akci. \n\n [Další informace o spouštěčích.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Přidat spouštěč",
                             "duplicate": "Duplikovat",
                             "delete": "Smazat",
@@ -436,7 +436,7 @@
                                     "for": "Po dobu"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Událost:",
                                     "start": "Spuštění",
                                     "shutdown": "Ukončení"
@@ -544,7 +544,7 @@
                         },
                         "actions": {
                             "header": "Akce",
-                            "introduction": "Akce jsou to, co Home Assistant provede při spuštění automatizace. \n\n [Více informací o akcích.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akce jsou to, co JAVIS Home provede při spuštění automatizace. \n\n [Více informací o akcích.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Přidat akci",
                             "duplicate": "Duplikovat",
                             "delete": "Smazat",
@@ -611,7 +611,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Přihlášen jako {email}",
                     "description_not_login": "Nepřihlášen",
                     "description_features": "Ovládejte vzdáleně, integrace s Alexou a Google Assistant."
@@ -628,7 +628,7 @@
                         "no_devices": "Tato integrace nemá žádná zařízení.",
                         "no_device": "Entity bez zařízení",
                         "delete_confirm": "Opravdu chcete odstranit tuto integraci?",
-                        "restart_confirm": "Restartujte Home Assistant pro odstranění této integrace",
+                        "restart_confirm": "Restartujte JAVIS Home pro odstranění této integrace",
                         "manuf": "od {manufacturer}",
                         "via": "Připojeno přes",
                         "firmware": "Firmware: {version}",
@@ -702,7 +702,7 @@
                 },
                 "person": {
                     "caption": "Osoby",
-                    "description": "Spravujte osoby, které Home Assistant sleduje.",
+                    "description": "Spravujte osoby, které JAVIS Home sleduje.",
                     "detail": {
                         "name": "Jméno",
                         "device_tracker_intro": "Vyberte zařízení, která patří této osobě.",
@@ -744,7 +744,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeny s dlouhou životností",
-                    "description": "Vytvořte přístupové tokeny s dlouhou životností, aby vaše skripty mohly komunikovat s instancí Home Assistant. Každý token bude platný po dobu 10 let od vytvoření. Tyto tokeny s dlouhou životností jsou v současné době aktivní.",
+                    "description": "Vytvořte přístupové tokeny s dlouhou životností, aby vaše skripty mohly komunikovat s instancí JAVIS Home. Každý token bude platný po dobu 10 let od vytvoření. Tyto tokeny s dlouhou životností jsou v současné době aktivní.",
                     "learn_auth_requests": "Naučte se, jak posílat ověřené požadavky.",
                     "created_at": "Vytvořeno {date}",
                     "confirm_delete": "Opravdu chcete smazat přístupový token pro {name} ?",
@@ -783,7 +783,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializuji",
-                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci Home Assistant.",
+                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci JAVIS Home.",
                 "logging_in_with": "Přihlásit se pomocí **{authProviderName}**.",
                 "pick_auth_provider": "Nebo se přihlaste s",
                 "abort_intro": "Přihlášení bylo zrušeno",
@@ -895,12 +895,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Zařízení a služby jsou v Home Assistant reprezentovány jako integrace. Tyto můžete nastavit nyní nebo později z konfigurační obrazovky.",
+                    "intro": "Zařízení a služby jsou v JAVIS Home reprezentovány jako integrace. Tyto můžete nastavit nyní nebo později z konfigurační obrazovky.",
                     "more_integrations": "Více",
                     "finish": "Dokončit"
                 },
                 "core-config": {
-                    "intro": "Dobrý den, {name} , vítejte v Home Assistant. Jak byste chtěli pojmenovat svůj domov?",
+                    "intro": "Dobrý den, {name} , vítejte v JAVIS Home. Jak byste chtěli pojmenovat svůj domov?",
                     "intro_location": "Rádi bychom věděli, kde žijete. Tyto informace pomohou při zobrazování informací a určování přesné polohy slunce. Tato data nejsou nikdy sdílena mimo vaši síť.",
                     "intro_location_detect": "Můžeme vám pomoci vyplnit tyto informace jednorázovým požadavkem na externí službu.",
                     "location_name_default": "Domov",
@@ -943,7 +943,7 @@
                     "migrate": {
                         "header": "Konfigurace není kompatibilní",
                         "para_no_id": "Tento prvek nemá ID. Přidejte k tomuto prvku ID v 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant může automaticky přidávat ID ke všem kartám a pohledům stisknutím tlačítka \"Migrovat konfiguraci\".",
+                        "para_migrate": "JAVIS Home může automaticky přidávat ID ke všem kartám a pohledům stisknutím tlačítka \"Migrovat konfiguraci\".",
                         "migrate": "Migrovat konfiguraci"
                     },
                     "header": "Upravit UI",
@@ -955,7 +955,7 @@
                     },
                     "save_config": {
                         "header": "Převzít kontrolu nad vaší Lovelace UI",
-                        "para": "Ve výchozím nastavení bude Home Assistant spravovat vaše uživatelské rozhraní – aktualizovat jej při přidání nové entity nebo Lovelace komponenty. Pokud převezmete kontrolu, nebudeme již provádět změny automaticky za vás.",
+                        "para": "Ve výchozím nastavení bude JAVIS Home spravovat vaše uživatelské rozhraní – aktualizovat jej při přidání nové entity nebo Lovelace komponenty. Pokud převezmete kontrolu, nebudeme již provádět změny automaticky za vás.",
                         "para_sure": "Opravdu chcete převzít kontrolu nad uživalským rohraním ?",
                         "cancel": "Zahodit změnu",
                         "save": "Převzít kontrolu"
@@ -991,8 +991,8 @@
                     "demo": {
                         "demo_by": "od {name}",
                         "next_demo": "Další demo",
-                        "introduction": "Vítejte doma! Dostali jste se do demoverze Home Assistant, kde prezentujeme nejlepší uživatelská rozhraní vytvořená komunitou.",
-                        "learn_more": "Další informace o Home Assistant"
+                        "introduction": "Vítejte doma! Dostali jste se do demoverze JAVIS Home, kde prezentujeme nejlepší uživatelská rozhraní vytvořená komunitou.",
+                        "learn_more": "Další informace o JAVIS Home"
                     }
                 },
                 "config": {
@@ -1262,7 +1262,7 @@
         "vacuum": "Vysavač",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Kondice systému",
         "person": "Osoba"

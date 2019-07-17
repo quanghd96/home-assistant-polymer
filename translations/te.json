@@ -311,7 +311,7 @@
                 "delete_button": "తొలగించు"
             },
             "config": {
-                "header": "కాన్ఫిగర్ Home Assistant",
+                "header": "కాన్ఫిగర్ JAVIS Home",
                 "core": {
                     "section": {
                         "core": {
@@ -369,7 +369,7 @@
                                     "to": "టు"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "ఈవెంట్",
                                     "start": "ప్రారంభం"
                                 },

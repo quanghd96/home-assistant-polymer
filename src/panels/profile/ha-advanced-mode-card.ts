@@ -31,7 +31,7 @@ class AdvancedModeCard extends LitElement {
           ></paper-toggle-button>
         </div>
         <div class="card-content">
-          Home Assistant hides advanced features and options by default. You can
+          JAVIS Home hides advanced features and options by default. You can
           make these features accessible by checking this toggle. This is a
           user-specific setting and does not impact other users using Home
           Assistant.

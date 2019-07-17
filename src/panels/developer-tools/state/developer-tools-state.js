@@ -66,7 +66,7 @@ class HaPanelDevState extends EventsMixin(PolymerElement) {
 
       <div>
         <p>
-          Set the representation of a device within Home Assistant.<br />
+          Set the representation of a device within JAVIS Home.<br />
           This will not communicate with the actual device.
         </p>
 

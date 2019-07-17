@@ -342,8 +342,8 @@
                 "delete_button": "Izbriši"
             },
             "config": {
-                "header": "Konfiguriraj Home Assistant",
-                "introduction": "Tukaj je mogoče konfigurirati vaše komponente in Home Assistanta. Vsega ni mogoče konfigurirati iz uporabniškega vmesnika (vendar delamo na tem).",
+                "header": "Konfiguriraj JAVIS Home",
+                "introduction": "Tukaj je mogoče konfigurirati vaše komponente in JAVIS Homea. Vsega ni mogoče konfigurirati iz uporabniškega vmesnika (vendar delamo na tem).",
                 "core": {
                     "caption": "Splošno",
                     "description": "Preverite vašo konfiguracijo in nadzorujte strežnik",
@@ -360,7 +360,7 @@
                             },
                             "reloading": {
                                 "heading": "Ponovno nalaganje konfiguracije",
-                                "introduction": "Nekateri deli Home Assistanta se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
+                                "introduction": "Nekateri deli JAVIS Homea se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
                                 "core": "Ponovno naloži jedro",
                                 "group": "Ponovno naloži skupine",
                                 "automation": "Ponovno naloži avtomizacije",
@@ -368,13 +368,13 @@
                             },
                             "server_management": {
                                 "heading": "Upravljanje strežnika",
-                                "introduction": "Nadzirajte strežnik Home Assistant ... iz Home Assistanta",
+                                "introduction": "Nadzirajte strežnik JAVIS Home ... iz JAVIS Homea",
                                 "restart": "Ponovni zagon",
                                 "stop": "Ustavi"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Urejevalnik je onemogočen, ker je konfiguracija shranjena v config.yaml.",
-                                "location_name": "Ime vašega instalacije vašega Home Assistant-a.",
+                                "location_name": "Ime vašega instalacije vašega JAVIS Home-a.",
                                 "latitude": "Zemljepisna širina",
                                 "longitude": "Zemljepisna dolžina",
                                 "elevation": "Nadmorska višina",
@@ -403,7 +403,7 @@
                     "description": "Ustvarite in uredite avtomatizacije",
                     "picker": {
                         "header": "Urejevalnik avtomatizacije",
-                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), da preverite, ali ste pravilno nastavili Home Assistant-a.",
+                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), da preverite, ali ste pravilno nastavili JAVIS Home-a.",
                         "pick_automation": "Izberite avtomatizacijo za urejanje",
                         "no_automations": "Ne moremo najti nobene avtomatizacije za urejanje",
                         "add_automation": "Dodaj avtomatizacijo",
@@ -417,7 +417,7 @@
                         "alias": "Ime",
                         "triggers": {
                             "header": "Sprožilci",
-                            "introduction": "Sprožilci so tisto, kar začne postopek obdelave avtomatizacije pravila. Za isto pravilo je mogoče določiti več sprožilcev. Ko se začne sprožilec, bo Home Assistant potrdil pogoje, če so, in poklical dejanje. \n\n [Več o sprožilcih.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Sprožilci so tisto, kar začne postopek obdelave avtomatizacije pravila. Za isto pravilo je mogoče določiti več sprožilcev. Ko se začne sprožilec, bo JAVIS Home potrdil pogoje, če so, in poklical dejanje. \n\n [Več o sprožilcih.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Dodaj sprožilec",
                             "duplicate": "Podvoji",
                             "delete": "Izbriši",
@@ -437,7 +437,7 @@
                                     "for": "Za"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Dogodek:",
                                     "start": "Zagon",
                                     "shutdown": "Zaustavitev"
@@ -545,7 +545,7 @@
                         },
                         "actions": {
                             "header": "Akcije",
-                            "introduction": "Akcije so, kaj bo storil Home Assistant, ko se sproži avtomatizacija. \n\n [Več o dejavnostih.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akcije so, kaj bo storil JAVIS Home, ko se sproži avtomatizacija. \n\n [Več o dejavnostih.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Dodaj akcijo",
                             "duplicate": "Podvoji",
                             "delete": "Izbriši",
@@ -636,7 +636,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Prijavljen kot {email}",
                     "description_not_login": "Niste prijavljeni",
                     "description_features": "Imejte nadzor nad domom tudi, ko vas ni doma, povežite z Alexo in Google Asistentom."
@@ -653,7 +653,7 @@
                         "no_devices": "Ta integracija je brez naprav.",
                         "no_device": "Entitete brez naprav",
                         "delete_confirm": "Ali ste prepričani, da želite izbrisati to integracijo?",
-                        "restart_confirm": "Znova zaženite Home Assistant-a, da dokončate odstranitev te integracije",
+                        "restart_confirm": "Znova zaženite JAVIS Home-a, da dokončate odstranitev te integracije",
                         "manuf": "po {manufacturer}",
                         "via": "Povezan prek",
                         "firmware": "Firmware: {version}",
@@ -693,7 +693,7 @@
                     "description": "Pregled vseh območij v vašem domu.",
                     "picker": {
                         "header": "Register območij",
-                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem Home Assistant-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
+                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem JAVIS Home-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
                         "introduction2": "Če želite namestiti napravo na območje, uporabite spodnjo povezavo, da se pomaknete na stran za integracije, nato pa kliknite konfigurirano integracijo, da pridete do kartic naprave.",
                         "integrations_page": "Stran za integracije",
                         "no_areas": "Izgleda, da še nimate območij!",
@@ -714,7 +714,7 @@
                     "picker": {
                         "header": "Seznam entitet",
                         "unavailable": "(ni na voljo)",
-                        "introduction": "Home Assistant vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
+                        "introduction": "JAVIS Home vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
                         "introduction2": "Z registrom entitet preglasite ime, spremenite ID entitete ali odstranite vnos iz Home Assistent-a. Opomba, odstranitev vnosa registra entitet ne bo odstranila entitete. Če želite to narediti, sledite spodnji povezavi in jo odstranite s strani za integracijo.",
                         "integrations_page": "Stran za integracije"
                     },
@@ -727,7 +727,7 @@
                 },
                 "person": {
                     "caption": "Osebe",
-                    "description": "Upravljajte osebe, ki jih sledi Home Assistant.",
+                    "description": "Upravljajte osebe, ki jih sledi JAVIS Home.",
                     "detail": {
                         "name": "Ime",
                         "device_tracker_intro": "Izberite naprave, ki pripadajo tej osebi.",
@@ -769,7 +769,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Dolgotrajni dostopni žetoni",
-                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom Home Assistanta. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
+                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom JAVIS Homea. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
                     "learn_auth_requests": "Naučite se, kako naredite preverjene zahteve.",
                     "created_at": "Ustvarjen na {date}",
                     "confirm_delete": "Ali ste prepričani, da želite izbrisati žeton za dostop za {name} ?",
@@ -808,7 +808,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializacija",
-                "authorizing_client": "Dali boste {clientId} dostop do vašega Home assistanta.",
+                "authorizing_client": "Dali boste {clientId} dostop do vašega JAVIS Homea.",
                 "logging_in_with": "Prijava z **{authProviderName}**.",
                 "pick_auth_provider": "Ali se prijavite z",
                 "abort_intro": "Prijava prekinjena",
@@ -920,12 +920,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Naprave in storitve so v Home Assistantu predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
+                    "intro": "Naprave in storitve so v JAVIS Homeu predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
                     "more_integrations": "Več",
                     "finish": "Dokončaj"
                 },
                 "core-config": {
-                    "intro": "Pozdravljeni {name}, dobrodošli v Home Assistantu. Kako bi radi poimenovali vaš dom?",
+                    "intro": "Pozdravljeni {name}, dobrodošli v JAVIS Homeu. Kako bi radi poimenovali vaš dom?",
                     "intro_location": "Radi bi vedeli, kje živite. Te informacije vam bodo pomagale pri prikazovanju informacij in postavitvi avtomatizacij, ki temeljijo na soncu. Ti podatki se nikoli ne delijo izven vašega omrežja.",
                     "intro_location_detect": "Lahko vam pomagamo izpolniti te informacije z enkratno zahtevo za zunanjo storitev.",
                     "location_name_default": "Domov",
@@ -968,7 +968,7 @@
                     "migrate": {
                         "header": "Konfiguracija Nezdružljiva",
                         "para_no_id": "Ta element nima ID-ja. Prosimo, dodajte ID tega elementa v 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant lahko doda ID-je vsem vašim karticam in pogledom samodejno s pritiskom gumba »Migriraj nastavitve«.",
+                        "para_migrate": "JAVIS Home lahko doda ID-je vsem vašim karticam in pogledom samodejno s pritiskom gumba »Migriraj nastavitve«.",
                         "migrate": "Migriraj nastavitve"
                     },
                     "header": "Uredi UI",
@@ -980,7 +980,7 @@
                     },
                     "save_config": {
                         "header": "Prevzemite nadzor nad lovelace vmesnikom",
-                        "para": "Home Assistant bo privzeto vzdrževal vaš uporabniški vmesnik, ga posodabljal, ko bodo na voljo nove entitete ali komponente Lovelace. Če prevzamete nadzor, vam ga ne bo več samodejno popravljal.",
+                        "para": "JAVIS Home bo privzeto vzdrževal vaš uporabniški vmesnik, ga posodabljal, ko bodo na voljo nove entitete ali komponente Lovelace. Če prevzamete nadzor, vam ga ne bo več samodejno popravljal.",
                         "para_sure": "Ali ste prepričani, da želite prevzeti nadzor nad vašim vmesnikom?",
                         "cancel": "Pozabi",
                         "save": "Prevzemite nadzor"
@@ -1016,8 +1016,8 @@
                     "demo": {
                         "demo_by": "avtor: {name}",
                         "next_demo": "Naslednja predstavitev",
-                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev Home Assistant-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
-                        "learn_more": "Več o Home Assistant-u"
+                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev JAVIS Home-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
+                        "learn_more": "Več o JAVIS Home-u"
                     }
                 },
                 "config": {
@@ -1288,7 +1288,7 @@
         "vacuum": "Sesam",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Zdravje sistema",
         "person": "Oseba"

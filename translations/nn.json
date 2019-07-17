@@ -341,8 +341,8 @@
                 "delete_button": "Slett"
             },
             "config": {
-                "header": "Konfigurer Home Assistant",
-                "introduction": "Her er det mogleg å konfigurere dine komponenter og Home Assistant. Ikkje alt er mogleg å konfigurere frå brukarsnittet endå, men vi jobbar med saka.",
+                "header": "Konfigurer JAVIS Home",
+                "introduction": "Her er det mogleg å konfigurere dine komponenter og JAVIS Home. Ikkje alt er mogleg å konfigurere frå brukarsnittet endå, men vi jobbar med saka.",
                 "core": {
                     "caption": "Generelt",
                     "description": "Valider konfigurasjonsfilen din og kontroller serveren",
@@ -359,7 +359,7 @@
                             },
                             "reloading": {
                                 "heading": "Lastar konfigurasjon på nytt",
-                                "introduction": "Nokre delar av Home Assistant kan oppdaterast utan ein omstart. Ved å trykke på oppdater, vil Home Assistant forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
+                                "introduction": "Nokre delar av JAVIS Home kan oppdaterast utan ein omstart. Ved å trykke på oppdater, vil JAVIS Home forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
                                 "core": "Oppdater kjerna",
                                 "group": "Oppdater gruppene",
                                 "automation": "Oppdater automasjonane",
@@ -367,12 +367,12 @@
                             },
                             "server_management": {
                                 "heading": "Serveradministrasjon",
-                                "introduction": "Kontroller Home Assistant-serveren din... frå Home Assistant.",
+                                "introduction": "Kontroller JAVIS Home-serveren din... frå JAVIS Home.",
                                 "restart": "Omstart",
                                 "stop": "Stopp"
                             },
                             "core_config": {
-                                "location_name": "Namnet på din Home Assistant installasjon",
+                                "location_name": "Namnet på din JAVIS Home installasjon",
                                 "latitude": "Breiddegrad",
                                 "longitude": "Lengdegrad",
                                 "elevation": "Høgde",
@@ -401,7 +401,7 @@
                     "description": "Lag og rediger automasjonar",
                     "picker": {
                         "header": "Automasjonsredigar",
-                        "introduction": "Automasjonsredigeringa tillet deg å lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https:\/\/home-assistant.io\/docs\/automation\/editor\/) for å vere sikker på om du har konfigurert Home Assistant rett.",
+                        "introduction": "Automasjonsredigeringa tillet deg å lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https:\/\/home-assistant.io\/docs\/automation\/editor\/) for å vere sikker på om du har konfigurert JAVIS Home rett.",
                         "pick_automation": "Vel ein automasjon for å redigere",
                         "no_automations": "Vi klarte ikkje å finne nokon automasjonar som kunne redigerast",
                         "add_automation": "Legg til automasjon",
@@ -415,7 +415,7 @@
                         "alias": "Namn",
                         "triggers": {
                             "header": "Utløysarar",
-                            "introduction": "Utløysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg å spesifisere fleire utløysarar for same regel. Når ein utløysar startar, vil Home Assistant validere føresetnadane, dersom der er nokon, og så setje i gang handlinga.\n\n[Lær meir om utløysarar.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Utløysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg å spesifisere fleire utløysarar for same regel. Når ein utløysar startar, vil JAVIS Home validere føresetnadane, dersom der er nokon, og så setje i gang handlinga.\n\n[Lær meir om utløysarar.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Legg til utløysar",
                             "duplicate": "Dupliser",
                             "delete": "Slett",
@@ -435,7 +435,7 @@
                                     "for": "For"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Hending:",
                                     "start": "Oppstart",
                                     "shutdown": "Slå av"
@@ -543,7 +543,7 @@
                         },
                         "actions": {
                             "header": "Handlingar",
-                            "introduction": "Handlinga Home Assistant vil gjennomføre når automasjonen vert utløyst.",
+                            "introduction": "Handlinga JAVIS Home vil gjennomføre når automasjonen vert utløyst.",
                             "add": "Legg til handling",
                             "duplicate": "Dupliser",
                             "delete": "Slett",
@@ -610,7 +610,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Logga inn som {email}",
                     "description_not_login": "Ikkje logga inn"
                 },
@@ -626,7 +626,7 @@
                         "no_devices": "Denne integrasjonen har ingen oppføringar",
                         "no_device": "Oppføringar utan einingar",
                         "delete_confirm": "Er du sikker på at du vil slette denne integrasjonen?",
-                        "restart_confirm": "Restart Home Assistant for å fjerne denne integrasjonen",
+                        "restart_confirm": "Restart JAVIS Home for å fjerne denne integrasjonen",
                         "manuf": "av {manufacturer}",
                         "via": "Tilkopla via",
                         "firmware": "Firmware: {version}",
@@ -664,7 +664,7 @@
                     "description": "Oversikt over områda i heimen din.",
                     "picker": {
                         "header": "Områderegister",
-                        "introduction": "Områda vert brukt til å organisere kvar einingar er. Denne informasjonen vil bli brukt av Home Assistant for å hjelpe deg å organisere brukargrensesnittet, løyver og integrasjoner med andre system.",
+                        "introduction": "Områda vert brukt til å organisere kvar einingar er. Denne informasjonen vil bli brukt av JAVIS Home for å hjelpe deg å organisere brukargrensesnittet, løyver og integrasjoner med andre system.",
                         "introduction2": "For å plassere ei eining i eit område, bruk linken under for å navigere til integrasjonssida og trykk deretter på konfigurer integrasjon for å opne einingskortet.",
                         "integrations_page": "Integrasjonsside",
                         "no_areas": "Ser ut til at du ikkje har noko område endå!",
@@ -685,8 +685,8 @@
                     "picker": {
                         "header": "Oppføringsregisteret",
                         "unavailable": "(utilgjengeleg)",
-                        "introduction": "Home Assistant har eit register over alle oppføringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppføringane har ein eigen oppføringsidentifikasjon som er reservert for akkuratt denne oppføringa.",
-                        "introduction2": "Bruk oppføringsregisteret til å skrive over namn, endre oppføringsidentifikasjonane eller fjerne oppføringar frå Home Assistant. Merk deg at å fjerne oppføringa i oppføringregisteret ikkje fjernar sjølve oppføringa. For å gjere dette, gå vidare inn på linken under og fjern oppføringa i integrasjonssida.",
+                        "introduction": "JAVIS Home har eit register over alle oppføringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppføringane har ein eigen oppføringsidentifikasjon som er reservert for akkuratt denne oppføringa.",
+                        "introduction2": "Bruk oppføringsregisteret til å skrive over namn, endre oppføringsidentifikasjonane eller fjerne oppføringar frå JAVIS Home. Merk deg at å fjerne oppføringa i oppføringregisteret ikkje fjernar sjølve oppføringa. For å gjere dette, gå vidare inn på linken under og fjern oppføringa i integrasjonssida.",
                         "integrations_page": "Integrasjonsside"
                     },
                     "editor": {
@@ -698,7 +698,7 @@
                 },
                 "person": {
                     "caption": "Personar",
-                    "description": "Administrer personane Home Assistant sporer.",
+                    "description": "Administrer personane JAVIS Home sporer.",
                     "detail": {
                         "name": "Namn",
                         "device_tracker_intro": "Vel eininga som høyrer til denne personen.",
@@ -740,7 +740,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Langtidslevande tilgangstokenar",
-                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine å samhandle med Home Assistant-instansen. Kvar token vil vere gyldig i 10 år etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
+                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine å samhandle med JAVIS Home-instansen. Kvar token vil vere gyldig i 10 år etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
                     "learn_auth_requests": "Lær korleis du lagar ein autentisert førespurnad.",
                     "created_at": "Oppretta den {date}",
                     "confirm_delete": "Er du sikker på at du vil slette tilgangstoken for {name}?",
@@ -779,7 +779,7 @@
             },
             "page-authorize": {
                 "initializing": "Set i gang",
-                "authorizing_client": "Du held på å gi {clientId} tilgang til Home Assistant-instansen din.",
+                "authorizing_client": "Du held på å gi {clientId} tilgang til JAVIS Home-instansen din.",
                 "logging_in_with": "Loggar inn med **{authProviderName}**",
                 "pick_auth_provider": "Eller logg inn med",
                 "abort_intro": "Innlogging avbrote",
@@ -895,7 +895,7 @@
                     "finish": "Fullfør"
                 },
                 "core-config": {
-                    "intro": "Hallo {name}! Velkomen til Home Assistant. Kva for namn ønskjer du å gje heimen din?",
+                    "intro": "Hallo {name}! Velkomen til JAVIS Home. Kva for namn ønskjer du å gje heimen din?",
                     "location_name_default": "Heim",
                     "button_detect": "Oppdag",
                     "finish": "Neste"
@@ -934,7 +934,7 @@
                     "migrate": {
                         "header": "Konfigurasjonen er ikkje kompatibel",
                         "para_no_id": "Dette elementet har ikkje ein ID. Ver vennleg og legg til ein ID til dette elementet i \"ui-lovelace.yaml\"-fila di.",
-                        "para_migrate": "Home assistant kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
+                        "para_migrate": "JAVIS Home kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
                         "migrate": "Overfør konfigurasjon"
                     },
                     "header": "Rediger brukargrensesnitt",
@@ -946,7 +946,7 @@
                     },
                     "save_config": {
                         "header": "Ta kontroll over Lovelace-brukargrensesnittet",
-                        "para": "Som standard kjem Home Assistant til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
+                        "para": "Som standard kjem JAVIS Home til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
                         "para_sure": "Er du sikker på at du vil ta kontroll over brukergrensesnittet ditt?",
                         "cancel": "Gløym det",
                         "save": "Ta kontroll"
@@ -1230,7 +1230,7 @@
         "vacuum": "Støvsugar",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Systemhelse",
         "person": "Person"

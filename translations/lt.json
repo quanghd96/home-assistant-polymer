@@ -478,7 +478,7 @@
     "domain": {
         "zwave": "Z-Wave",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Sistemos sveikata",
         "person": "Asmuo"

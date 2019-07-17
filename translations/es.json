@@ -341,8 +341,8 @@
                 "delete_button": "Eliminar"
             },
             "config": {
-                "header": "Configurar Home Assistant",
-                "introduction": "Aquí puedes configurar tus componentes y Home Assistant. Aún no es posible configurar todo desde la interfaz de usuario, pero estamos trabajando en ello.",
+                "header": "Configurar JAVIS Home",
+                "introduction": "Aquí puedes configurar tus componentes y JAVIS Home. Aún no es posible configurar todo desde la interfaz de usuario, pero estamos trabajando en ello.",
                 "core": {
                     "caption": "Configuración general",
                     "description": "Valida tu archivo de configuración y controla el servidor",
@@ -359,7 +359,7 @@
                             },
                             "reloading": {
                                 "heading": "Recargando la configuración",
-                                "introduction": "Algunas partes de Home Assistant pueden recargarse sin necesidad de reiniciar. Al pulsar en recargar se descartará la configuración actual y se cargará la nueva.",
+                                "introduction": "Algunas partes de JAVIS Home pueden recargarse sin necesidad de reiniciar. Al pulsar en recargar se descartará la configuración actual y se cargará la nueva.",
                                 "core": "Recargar núcleo",
                                 "group": "Recargar grupos",
                                 "automation": "Recargar automatizaciones",
@@ -367,13 +367,13 @@
                             },
                             "server_management": {
                                 "heading": "Gestión del servidor",
-                                "introduction": "Controla tu servidor de Home Assistant ... desde Home Assistant.",
+                                "introduction": "Controla tu servidor de JAVIS Home ... desde JAVIS Home.",
                                 "restart": "Reiniciar",
                                 "stop": "Detener"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Editor deshabilitado debido a la configuración almacenada en configuration.yaml.",
-                                "location_name": "Nombre de tu instalación de Home Assistant",
+                                "location_name": "Nombre de tu instalación de JAVIS Home",
                                 "latitude": "Latitud",
                                 "longitude": "Longitud",
                                 "elevation": "Altitud",
@@ -402,7 +402,7 @@
                     "description": "Crear y editar automatizaciones",
                     "picker": {
                         "header": "Editor de automatización",
-                        "introduction": "El editor de automatización te permite crear y editar automatizaciones. En el enlace siguiente puedes leer las instrucciones para asegurarte de que has configurado correctamente Home Assistant.",
+                        "introduction": "El editor de automatización te permite crear y editar automatizaciones. En el enlace siguiente puedes leer las instrucciones para asegurarte de que has configurado correctamente JAVIS Home.",
                         "pick_automation": "Elije la automatización para editar",
                         "no_automations": "No pudimos encontrar ninguna automatización editable",
                         "add_automation": "Añadir automatización",
@@ -416,7 +416,7 @@
                         "alias": "Nombre",
                         "triggers": {
                             "header": "Desencadenantes",
-                            "introduction": "Los desencadenantes son los que inician el funcionamiento de una regla de automatización. Es posible especificar varios desencadenantes para la misma regla. Una vez que se inicia un desencadenante, Home Assistant comprobará las condiciones, si las hubiere, y ejecutará la acción.",
+                            "introduction": "Los desencadenantes son los que inician el funcionamiento de una regla de automatización. Es posible especificar varios desencadenantes para la misma regla. Una vez que se inicia un desencadenante, JAVIS Home comprobará las condiciones, si las hubiere, y ejecutará la acción.",
                             "add": "Añadir desencadenante",
                             "duplicate": "Duplicar",
                             "delete": "Eliminar",
@@ -436,7 +436,7 @@
                                     "for": "Durante"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Evento:",
                                     "start": "Arranque",
                                     "shutdown": "Apagado"
@@ -544,7 +544,7 @@
                         },
                         "actions": {
                             "header": "Acciones",
-                            "introduction": "Las acciones son lo que hará Home Assistant cuando se desencadene la automatización.",
+                            "introduction": "Las acciones son lo que hará JAVIS Home cuando se desencadene la automatización.",
                             "add": "Añadir acción",
                             "duplicate": "Duplicar",
                             "delete": "Eliminar",
@@ -611,7 +611,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Nube Home Assistant",
+                    "caption": "Nube JAVIS Home",
                     "description_login": "Has iniciado sesión como {email}",
                     "description_not_login": "No has iniciado sesión",
                     "description_features": "Control fuera de casa, integración con Alexa y Google Assistant."
@@ -628,7 +628,7 @@
                         "no_devices": "Esta integración no tiene dispositivos.",
                         "no_device": "Entidades sin dispositivos",
                         "delete_confirm": "¿Estás seguro de que quieres eliminar esta integración?",
-                        "restart_confirm": "Reinicia Home Assistant para terminar de eliminar esta integración.",
+                        "restart_confirm": "Reinicia JAVIS Home para terminar de eliminar esta integración.",
                         "manuf": "por {manufacturer}",
                         "via": "Conectado a través de",
                         "firmware": "Firmware: {version}",
@@ -668,7 +668,7 @@
                     "description": "Visión general de todas las áreas de tu casa.",
                     "picker": {
                         "header": "Registro de Área",
-                        "introduction": "Las áreas se utilizan para organizar dónde están los dispositivos. Esta información se utilizará en todo Home Assistant para ayudarte a organizar tu interfaz, permisos e integraciones con otros sistemas.",
+                        "introduction": "Las áreas se utilizan para organizar dónde están los dispositivos. Esta información se utilizará en todo JAVIS Home para ayudarte a organizar tu interfaz, permisos e integraciones con otros sistemas.",
                         "introduction2": "Para colocar dispositivos en un área, utiliza el siguiente enlace para navegar a la página de integraciones y luego haz clic en una integración configurada para llegar a las tarjetas de dispositivos.",
                         "integrations_page": "Integraciones",
                         "no_areas": "¡Parece que aún no tienes áreas!",
@@ -689,8 +689,8 @@
                     "picker": {
                         "header": "Registro de Entidades",
                         "unavailable": "(no disponible)",
-                        "introduction": "Home Assistant mantiene un registro de cada entidad que ha visto. Cada una de estas entidades tendrá una identificación asignada que se reservará sólo para esta entidad.",
-                        "introduction2": "Utiliza el registro de entidades para anular el nombre, cambiar el ID de la entidad o eliminar la entrada de Home Assistant. Nota: la eliminación de la entrada del registro de entidades no eliminará la entidad. Para ello, sigue el siguiente enlace y elimínalo de la página de integraciones.",
+                        "introduction": "JAVIS Home mantiene un registro de cada entidad que ha visto. Cada una de estas entidades tendrá una identificación asignada que se reservará sólo para esta entidad.",
+                        "introduction2": "Utiliza el registro de entidades para anular el nombre, cambiar el ID de la entidad o eliminar la entrada de JAVIS Home. Nota: la eliminación de la entrada del registro de entidades no eliminará la entidad. Para ello, sigue el siguiente enlace y elimínalo de la página de integraciones.",
                         "integrations_page": "Integraciones"
                     },
                     "editor": {
@@ -702,7 +702,7 @@
                 },
                 "person": {
                     "caption": "Personas",
-                    "description": "Gestiona las personas que rastrea Home Assistant.",
+                    "description": "Gestiona las personas que rastrea JAVIS Home.",
                     "detail": {
                         "name": "Nombre",
                         "device_tracker_intro": "Seleccione los dispositivos que pertenecen a esta persona.",
@@ -744,7 +744,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokens de acceso de larga duración",
-                    "description": "Crea tokens de acceso de larga duración para permitir que tus scripts interactúen con tu instancia de Home Assistant. Cada token será válido por 10 años desde la creación. Los siguientes tokens de acceso de larga duración están actualmente activos.",
+                    "description": "Crea tokens de acceso de larga duración para permitir que tus scripts interactúen con tu instancia de JAVIS Home. Cada token será válido por 10 años desde la creación. Los siguientes tokens de acceso de larga duración están actualmente activos.",
                     "learn_auth_requests": "Aprende cómo realizar solicitudes autenticadas.",
                     "created_at": "Creado el {date}",
                     "confirm_delete": "¿Estás seguro de que quieres eliminar el token de acceso para {name}?",
@@ -783,7 +783,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializando",
-                "authorizing_client": "Estás a punto de dar acceso a {clientId} a tu instancia de Home Assistant.",
+                "authorizing_client": "Estás a punto de dar acceso a {clientId} a tu instancia de JAVIS Home.",
                 "logging_in_with": "Iniciando sesión con **{authProviderName}**.",
                 "pick_auth_provider": "O inicia sesión con",
                 "abort_intro": "Inicio de sesión cancelado",
@@ -895,12 +895,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Los dispositivos y servicios están representados en Home Assistant como integraciones. Puedes configurarlos ahora, o hacerlo más tarde desde la pantalla de configuración.",
+                    "intro": "Los dispositivos y servicios están representados en JAVIS Home como integraciones. Puedes configurarlos ahora, o hacerlo más tarde desde la pantalla de configuración.",
                     "more_integrations": "Más",
                     "finish": "Terminar"
                 },
                 "core-config": {
-                    "intro": "Hola {name}, bienvenido a Home Assistant. ¿Cómo te gustaría llamar a tu casa?",
+                    "intro": "Hola {name}, bienvenido a JAVIS Home. ¿Cómo te gustaría llamar a tu casa?",
                     "intro_location": "Nos gustaría saber dónde vives. Esta información ayudará a mostrar información y a configurar automatizaciones basadas en el sol. Estos datos nunca se comparten fuera de tu red.",
                     "intro_location_detect": "Podemos ayudarte a completar esta información haciendo una solicitud única a un servicio externo.",
                     "location_name_default": "Casa",
@@ -943,7 +943,7 @@
                     "migrate": {
                         "header": "Configuración incompatible",
                         "para_no_id": "Este elemento no tiene un ID. Por favor agrega uno a este elemento en 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant puede añadir ID's a todas tus tarjetas y vistas automáticamente pulsando el botón 'Migrar configuración'.",
+                        "para_migrate": "JAVIS Home puede añadir ID's a todas tus tarjetas y vistas automáticamente pulsando el botón 'Migrar configuración'.",
                         "migrate": "Migrar configuración"
                     },
                     "header": "Editar la interfaz de usuario",
@@ -955,7 +955,7 @@
                     },
                     "save_config": {
                         "header": "Tomar el control de la interfaz de usuario Lovelace",
-                        "para": "Por defecto Home Assistant se encargará de tu interfaz de usuario y la actualizará cuando haya nuevas entidades o componentes Lovelace disponibles. Si asumes el control, ya no haremos más cambios automáticamente por ti.",
+                        "para": "Por defecto JAVIS Home se encargará de tu interfaz de usuario y la actualizará cuando haya nuevas entidades o componentes Lovelace disponibles. Si asumes el control, ya no haremos más cambios automáticamente por ti.",
                         "para_sure": "¿Estás seguro de que quieres tomar el control de tu interfaz de usuario?",
                         "cancel": "No importa",
                         "save": "Tomar el control"
@@ -991,8 +991,8 @@
                     "demo": {
                         "demo_by": "por {name}",
                         "next_demo": "Siguiente demostración",
-                        "introduction": "¡Bienvenido a casa! Has llegado a la demostración de Home Assistant donde mostramos las mejores interfaces de usuario creadas por nuestra comunidad.",
-                        "learn_more": "Aprende más sobre Home Assistant"
+                        "introduction": "¡Bienvenido a casa! Has llegado a la demostración de JAVIS Home donde mostramos las mejores interfaces de usuario creadas por nuestra comunidad.",
+                        "learn_more": "Aprende más sobre JAVIS Home"
                     }
                 },
                 "config": {
@@ -1262,7 +1262,7 @@
         "vacuum": "Aspiradora",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Salud del sistema",
         "person": "Persona"

@@ -11,7 +11,7 @@ const latestBuild = true;
 
 module.exports = {
   mode: isProd ? "production" : "development",
-  // Disabled in prod while we make Home Assistant able to serve the right files.
+  // Disabled in prod while we make JAVIS Home able to serve the right files.
   // Was source-map
   devtool: isProd ? "none" : "inline-source-map",
   entry: "./src/entrypoint.js",

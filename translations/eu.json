@@ -272,12 +272,12 @@
                             },
                             "server_management": {
                                 "heading": "Zerbitzariaren kudeaketa",
-                                "introduction": "Zure Home Assistant zerbitzaria... Home Assistantetik kontrolatu",
+                                "introduction": "Zure JAVIS Home zerbitzaria... JAVIS Homeetik kontrolatu",
                                 "restart": "Berrabiarazi",
                                 "stop": "Gelditu"
                             },
                             "core_config": {
-                                "location_name": "Zure Home Assistant instalazioaren izena",
+                                "location_name": "Zure JAVIS Home instalazioaren izena",
                                 "latitude": "Latitudea",
                                 "longitude": "Longitudea",
                                 "elevation_meters": "metro",
@@ -323,7 +323,7 @@
                                     "label": "Egoera"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Gertaera:",
                                     "start": "Hasi",
                                     "shutdown": "Itzali"
@@ -452,7 +452,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "{email} bezala hasi duzu saioa",
                     "description_not_login": "Ez da saioa hasi"
                 },
@@ -524,7 +524,7 @@
                 },
                 "person": {
                     "caption": "Pertsonak",
-                    "description": "Kudeatu Home Assistantek jarraituko dituen pertsonak.",
+                    "description": "Kudeatu JAVIS Homeek jarraituko dituen pertsonak.",
                     "detail": {
                         "name": "Izena",
                         "device_tracker_intro": "Hautatu pertsona horri dagozkion gailuak.",
@@ -665,7 +665,7 @@
                     "finish": "Amaitu"
                 },
                 "core-config": {
-                    "intro": "Kaixo {name}, ongi etorri Home Assistantera. Nola izendatu nahi duzu zure etxea?",
+                    "intro": "Kaixo {name}, ongi etorri JAVIS Homeera. Nola izendatu nahi duzu zure etxea?",
                     "intro_location_detect": "Informazio hau betetzen lagundu diezazukegu kanpoko zerbitzu batera esakera bakarra eginez.",
                     "location_name_default": "Etxea",
                     "button_detect": "Detektatu",
@@ -923,7 +923,7 @@
         "vacuum": "Xurgagailua",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Sistemaren Osasuna",
         "person": "Pertsona"

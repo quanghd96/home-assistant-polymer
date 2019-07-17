@@ -64,15 +64,15 @@ class CloudAccount extends EventsMixin(LocalizeMixin(PolymerElement)) {
           color: var(--primary-color);
         }
       </style>
-      <hass-subpage header="Home Assistant Cloud">
+      <hass-subpage header="JAVIS Home Cloud">
         <div class="content">
           <ha-config-section is-wide="[[isWide]]">
-            <span slot="header">Home Assistant Cloud</span>
+            <span slot="header">JAVIS Home Cloud</span>
             <div slot="introduction">
               <p>
-                Thank you for being part of Home Assistant Cloud. It's because
-                of people like you that we are able to make a great home
-                automation experience for everyone. Thank you!
+                Thank you for being part of JAVIS Home Cloud. It's because of
+                people like you that we are able to make a great home automation
+                experience for everyone. Thank you!
               </p>
             </div>
 
@@ -106,7 +106,7 @@ class CloudAccount extends EventsMixin(LocalizeMixin(PolymerElement)) {
             <span slot="header">Integrations</span>
             <div slot="introduction">
               <p>
-                Integrations for Home Assistant Cloud allow you to connect with
+                Integrations for JAVIS Home Cloud allow you to connect with
                 services in the cloud without having to expose your Home
                 Assistant instance publicly on the internet.
               </p>

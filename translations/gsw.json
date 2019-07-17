@@ -302,7 +302,7 @@
                                     "to": "Für"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "start": "Starte",
                                     "shutdown": "Abefahre"
                                 },

@@ -60,7 +60,7 @@ class HaConfigPerson extends LitElement {
         <ha-config-section .isWide=${this.isWide}>
           <span slot="header">Persons</span>
           <span slot="introduction">
-            Here you can define each person of interest in Home Assistant.
+            Here you can define each person of interest in JAVIS Home.
             ${this._configItems.length > 0
               ? html`
                   <p>

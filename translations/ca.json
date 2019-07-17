@@ -342,8 +342,8 @@
                 "delete_button": "Elimina"
             },
             "config": {
-                "header": "Configuració de Home Assistant",
-                "introduction": "Aquí pots configurar Home Assistant i els seus components. Encara no és possible configurar-ho tot des de la interfície d'usuari, però hi estem treballant.",
+                "header": "Configuració de JAVIS Home",
+                "introduction": "Aquí pots configurar JAVIS Home i els seus components. Encara no és possible configurar-ho tot des de la interfície d'usuari, però hi estem treballant.",
                 "core": {
                     "caption": "General",
                     "description": "Valida la configuració i controla el servidor",
@@ -360,7 +360,7 @@
                             },
                             "reloading": {
                                 "heading": "Recàrrega de la configuració",
-                                "introduction": "Algunes parts de la configuració de Home Assistant es poden recarregar sense necessitat de reiniciar-les. Les opcions de sota esborraran la configuració antiga i carregaran la nova.",
+                                "introduction": "Algunes parts de la configuració de JAVIS Home es poden recarregar sense necessitat de reiniciar-les. Les opcions de sota esborraran la configuració antiga i carregaran la nova.",
                                 "core": "Recarrega el nucli",
                                 "group": "Recarrega grups",
                                 "automation": "Recarrega automatismes",
@@ -368,13 +368,13 @@
                             },
                             "server_management": {
                                 "heading": "Gestió del servidor",
-                                "introduction": "Controla el servidor de Home Assistant... des de Home Assistant.",
+                                "introduction": "Controla el servidor de JAVIS Home... des de JAVIS Home.",
                                 "restart": "Reinicia",
                                 "stop": "Atura"
                             },
                             "core_config": {
                                 "edit_requires_storage": "L'editor està desactivat ja que la configuració es troba a configuration.yaml.",
-                                "location_name": "Nom de la instal·lació de Home Assistant",
+                                "location_name": "Nom de la instal·lació de JAVIS Home",
                                 "latitude": "Latitud",
                                 "longitude": "Longitud",
                                 "elevation": "Altitud",
@@ -403,7 +403,7 @@
                     "description": "Crea i edita automatismes",
                     "picker": {
                         "header": "Editor d'automatismes",
-                        "introduction": "L'editor d'automatismes permet crear i editar automatismes. Vés a l'enllaç de sota per llegir les instruccions i assegurar-te que has configurat el Home Assistant correctament.",
+                        "introduction": "L'editor d'automatismes permet crear i editar automatismes. Vés a l'enllaç de sota per llegir les instruccions i assegurar-te que has configurat el JAVIS Home correctament.",
                         "pick_automation": "Selecciona l'automatisme a editar",
                         "no_automations": "No s'ha pogut trobar cap automatisme editable",
                         "add_automation": "Afegir automatisme",
@@ -417,7 +417,7 @@
                         "alias": "Nom",
                         "triggers": {
                             "header": "Activadors",
-                            "introduction": "Els activadors són les regles que fan que es dispari un automatisme. Pots definir més d'un activador per a cada automatisme. Una vegada s'iniciï un activador, el Home Assistant validarà les condicions (si n'hi ha) i finalment cridarà l'acció.",
+                            "introduction": "Els activadors són les regles que fan que es dispari un automatisme. Pots definir més d'un activador per a cada automatisme. Una vegada s'iniciï un activador, el JAVIS Home validarà les condicions (si n'hi ha) i finalment cridarà l'acció.",
                             "add": "Afegir activador",
                             "duplicate": "Duplicar",
                             "delete": "Elimina",
@@ -437,7 +437,7 @@
                                     "for": "Durant"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Esdeveniment:",
                                     "start": "Inici",
                                     "shutdown": "Aturada"
@@ -545,7 +545,7 @@
                         },
                         "actions": {
                             "header": "Accions",
-                            "introduction": "Les accions són allò que farà Home Assistant quan s'activi l'automatisme i es compleixin totes les condicions (si n'hi ha).",
+                            "introduction": "Les accions són allò que farà JAVIS Home quan s'activi l'automatisme i es compleixin totes les condicions (si n'hi ha).",
                             "add": "Afegir acció",
                             "duplicate": "Duplicar",
                             "delete": "Elimina",
@@ -636,7 +636,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Sessió iniciada com a {email}",
                     "description_not_login": "No has iniciat sessió",
                     "description_features": "Controla la casa des de fora, pots integrar Alexa i Google Assistant."
@@ -653,7 +653,7 @@
                         "no_devices": "Aquesta integració no té dispositius.",
                         "no_device": "Entitats sense dispositius",
                         "delete_confirm": "Estas segur que vols eliminar aquesta integració?",
-                        "restart_confirm": "Reinicia el Home Assistant per acabar d'eliminar aquesta integració",
+                        "restart_confirm": "Reinicia el JAVIS Home per acabar d'eliminar aquesta integració",
                         "manuf": "de {manufacturer}",
                         "via": "Connectat a través de",
                         "firmware": "Firmware: {version}",
@@ -693,7 +693,7 @@
                     "description": "Visió general de totes les àrees de la casa.",
                     "picker": {
                         "header": "Registre d'àrees",
-                        "introduction": "Les àrees s'utilitzen per organitzar la situació dels dispositius. Aquesta informació serà utilitzada per Home Assistant per ajudar-te a organitzar millor la teva interfície, els permisos i les integracions amb d'altres sistemes.",
+                        "introduction": "Les àrees s'utilitzen per organitzar la situació dels dispositius. Aquesta informació serà utilitzada per JAVIS Home per ajudar-te a organitzar millor la teva interfície, els permisos i les integracions amb d'altres sistemes.",
                         "introduction2": "Per col·locar dispositius en una àrea, utilitza l'enllaç de sota per anar a la pàgina d'integracions i, a continuació, fes clic a una integració configurada per accedir a les targetes del dispositiu.",
                         "integrations_page": "Pàgina d'integracions",
                         "no_areas": "Sembla que encara no tens cap àrea!",
@@ -714,8 +714,8 @@
                     "picker": {
                         "header": "Registre d'entitats",
                         "unavailable": "(no disponible)",
-                        "introduction": "Home Assistant manté un registre de totes les entitats que ha detectat alguna vegada les quals tenen una identificació única. Cadascuna d'aquestes entitats té un identificador (ID) assignat que està reservat només per a ella.",
-                        "introduction2": "Utilitza el registre d'entitats per canviar el nom, canviar l'ID o eliminar l'entrada de Home Assistant de les entitats. Tingues en compte que eliminar-les del registre d'entitats no eliminarà l'entitat. Per fer-ho, segueix l'enllaç següent i elimineu-la dins la pàgina d'integracions.",
+                        "introduction": "JAVIS Home manté un registre de totes les entitats que ha detectat alguna vegada les quals tenen una identificació única. Cadascuna d'aquestes entitats té un identificador (ID) assignat que està reservat només per a ella.",
+                        "introduction2": "Utilitza el registre d'entitats per canviar el nom, canviar l'ID o eliminar l'entrada de JAVIS Home de les entitats. Tingues en compte que eliminar-les del registre d'entitats no eliminarà l'entitat. Per fer-ho, segueix l'enllaç següent i elimineu-la dins la pàgina d'integracions.",
                         "integrations_page": "Pàgina d'integracions"
                     },
                     "editor": {
@@ -727,7 +727,7 @@
                 },
                 "person": {
                     "caption": "Persones",
-                    "description": "Gestiona a quines persones fa seguiment Home Assistant.",
+                    "description": "Gestiona a quines persones fa seguiment JAVIS Home.",
                     "detail": {
                         "name": "Nom",
                         "device_tracker_intro": "Selecciona els dispositius que pertanyen a aquesta persona.",
@@ -769,7 +769,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Testimonis d'autenticació d'accés de llarga durada",
-                    "description": "Crea testimonis d'autenticació d'accés de llarga durada per permetre als teus programes (scripts) interactuar amb la instància de Home Assistant. Cada testimoni d'autenticació serà vàlid durant deu anys després de la seva creació. Els següents testimonis d'autenticació d'accés de llarga durada estan actius actualment.",
+                    "description": "Crea testimonis d'autenticació d'accés de llarga durada per permetre als teus programes (scripts) interactuar amb la instància de JAVIS Home. Cada testimoni d'autenticació serà vàlid durant deu anys després de la seva creació. Els següents testimonis d'autenticació d'accés de llarga durada estan actius actualment.",
                     "learn_auth_requests": "Aprèn a fer sol·licituds autenticades.",
                     "created_at": "Creat el {date}",
                     "confirm_delete": "Estàs segur que vols eliminar el testimoni d'autenticació d'accés per {name}?",
@@ -808,7 +808,7 @@
             },
             "page-authorize": {
                 "initializing": "S'està inicialitzant",
-                "authorizing_client": "Esteu a punt de permetre l'accés a la vostra instància de Home Assistant al client {clientId}.",
+                "authorizing_client": "Esteu a punt de permetre l'accés a la vostra instància de JAVIS Home al client {clientId}.",
                 "logging_in_with": "Iniciant sessió amb **{authProviderName}**.",
                 "pick_auth_provider": "O bé inicieu sessió amb",
                 "abort_intro": "S'ha avortat l'inici de sessió",
@@ -920,12 +920,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Els dispositius i serveis es representen a Home Assistant com a integracions. Pots configurar-los ara o més tard des de la pàgina de configuració.",
+                    "intro": "Els dispositius i serveis es representen a JAVIS Home com a integracions. Pots configurar-los ara o més tard des de la pàgina de configuració.",
                     "more_integrations": "Més",
                     "finish": "Finalitza"
                 },
                 "core-config": {
-                    "intro": "Hola {name}, benvingut\/uda a Home Assistant. Quin nom t'agradaria posar a la teva casa?",
+                    "intro": "Hola {name}, benvingut\/uda a JAVIS Home. Quin nom t'agradaria posar a la teva casa?",
                     "intro_location": "Voldirem saber la zona on vius. Aquesta informació servirà per poder mostrar certa informació i configurar automatitzacions relatives a la posició del sol. Aquestes dades mai es compartiran fora de la teva xarxa personal.",
                     "intro_location_detect": "Et podem ajudar a completar aquesta informació fent una única sol·licitud a un servei extern.",
                     "location_name_default": "Casa",
@@ -968,7 +968,7 @@
                     "migrate": {
                         "header": "Configuració incompatible",
                         "para_no_id": "Aquest element no té ID. Afegeix un ID per aquest element a 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant pot afegir ID's a totes les vostres targetes i visualitzacions automàticament fent clic al botó \"Migrar la configuració\".",
+                        "para_migrate": "JAVIS Home pot afegir ID's a totes les vostres targetes i visualitzacions automàticament fent clic al botó \"Migrar la configuració\".",
                         "migrate": "Migrar la configuració"
                     },
                     "header": "Editar la interfície d'usuari (UI)",
@@ -980,7 +980,7 @@
                     },
                     "save_config": {
                         "header": "Pren el control de la interfície d'usuari Lovelace",
-                        "para": "De manera predeterminada, Home Assistant mantindrà al dia la teva interfície d'usuari, actualitzant-la quan hi hagi noves entitats o nous components de Lovelace disponibles. Si prens el control, ja no es faran aquests canvis automàticament.",
+                        "para": "De manera predeterminada, JAVIS Home mantindrà al dia la teva interfície d'usuari, actualitzant-la quan hi hagi noves entitats o nous components de Lovelace disponibles. Si prens el control, ja no es faran aquests canvis automàticament.",
                         "para_sure": "Estàs segur que vols prendre el control de la interfície d'usuari?",
                         "cancel": "M'ho he repensat",
                         "save": "Prendre el control"
@@ -1016,8 +1016,8 @@
                     "demo": {
                         "demo_by": "per {name}",
                         "next_demo": "Següent mostra",
-                        "introduction": "Benvingut a casa! Has arribat a la demo de Home Assistant on es mostren algunes de les millors interfícies d’usuari creades per la comunitat.",
-                        "learn_more": "Més informació sobre Home Assistant"
+                        "introduction": "Benvingut a casa! Has arribat a la demo de JAVIS Home on es mostren algunes de les millors interfícies d’usuari creades per la comunitat.",
+                        "learn_more": "Més informació sobre JAVIS Home"
                     }
                 },
                 "config": {
@@ -1288,7 +1288,7 @@
         "vacuum": "Aspiradora",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Estat del sistema",
         "person": "Persona"

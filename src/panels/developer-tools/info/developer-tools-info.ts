@@ -47,10 +47,10 @@ class HaPanelDevInfo extends LitElement {
             ><img
               src="/static/icons/favicon-192x192.png"
               height="192"
-              alt="Home Assistant logo"
+              alt="JAVIS Home logo"
           /></a>
           <br />
-          Home Assistant<br />
+          JAVIS Home<br />
           ${hass.config.version}
         </p>
         <p>

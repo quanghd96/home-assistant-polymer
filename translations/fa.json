@@ -323,7 +323,7 @@
                 "empty": "شما پیامی ندارید"
             },
             "config": {
-                "header": "پیکربندی HOME ASSistant",
+                "header": "پیکربندی JAVIS Home",
                 "introduction": "در اینجا می توانید اجزای خود و صفحه اصلی دستیار را پیکربندی کنید. ",
                 "core": {
                     "section": {
@@ -336,14 +336,14 @@
                             },
                             "reloading": {
                                 "heading": "بارگذاری مجدد پیکربندی",
-                                "introduction": "برخی از قسمت های Home Assistant می توانند بدون نیاز به راه اندازی مجدد مجدد بارگیری شوند. برای بارگذاری مجدد ضربه بزنید. پیکربندی کنونی خود را بارگیری و اطلاعات جدید را بارگذاری می کند.",
+                                "introduction": "برخی از قسمت های JAVIS Home می توانند بدون نیاز به راه اندازی مجدد مجدد بارگیری شوند. برای بارگذاری مجدد ضربه بزنید. پیکربندی کنونی خود را بارگیری و اطلاعات جدید را بارگذاری می کند.",
                                 "core": "بارگذاری مجدد ",
                                 "group": "بارگذاری مجدد گروه ها",
                                 "automation": "بازنگری automations",
                                 "script": "بازنگری اسکریپت"
                             },
                             "server_management": {
-                                "introduction": "صفحه اصلی home assistant سرور خود را کنترل کنید ... از  home assistant"
+                                "introduction": "صفحه اصلی JAVIS Home سرور خود را کنترل کنید ... از  JAVIS Home"
                             },
                             "core_config": {
                                 "edit_requires_storage": "ویرایشگر غیرفعال شده است چون پیکربندی ذخیره شده در configuration.yaml.",
@@ -380,7 +380,7 @@
                         "save": "ذخیره",
                         "alias": "نام",
                         "triggers": {
-                            "introduction": "راه حلی است که پردازش یک قانون اتوماسیون را آغاز می کند. ممکن است چند عامل برای یک قاعده مشخص شود. هنگامی که یک ماشه شروع می شود، Home Assistant شرایط را تایید می کند، اگر وجود داشته باشد، و اقدام را فراخوانی می کند.",
+                            "introduction": "راه حلی است که پردازش یک قانون اتوماسیون را آغاز می کند. ممکن است چند عامل برای یک قاعده مشخص شود. هنگامی که یک ماشه شروع می شود، JAVIS Home شرایط را تایید می کند، اگر وجود داشته باشد، و اقدام را فراخوانی می کند.",
                             "duplicate": "کپی کنید",
                             "delete": "حذف",
                             "type": {
@@ -393,7 +393,7 @@
                                     "label": "وضعیت"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant"
+                                    "label": "JAVIS Home"
                                 },
                                 "numeric_state": {
                                     "label": "حالت عددی"
@@ -545,7 +545,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": " home assistant ابر",
+                    "caption": " JAVIS Home ابر",
                     "description_login": "وارد شده به عنوان {email}",
                     "description_not_login": "وارد نشده اید",
                     "description_features": "کنترل کردن از خانه، ادغام با Alexa و Google Assistant."
@@ -561,7 +561,7 @@
                     "config_entry": {
                         "no_devices": "این ادغام هیچ دستگاهی ندارد.",
                         "no_device": " بدون دستگاه",
-                        "restart_confirm": "راه اندازی مجدد home assistant به پایان بردن این ادغام",
+                        "restart_confirm": "راه اندازی مجدد JAVIS Home به پایان بردن این ادغام",
                         "manuf": "توسط {manufacturer}",
                         "via": "اتصال از طریق",
                         "firmware": "سیستم عامل: {version}",
@@ -681,7 +681,7 @@
                 }
             },
             "page-authorize": {
-                "authorizing_client": "شما در مورد ارائه {clientId} به عنوان مثال دستیار Home Assistant هستید.",
+                "authorizing_client": "شما در مورد ارائه {clientId} به عنوان مثال دستیار JAVIS Home هستید.",
                 "logging_in_with": "ورود با ** {authProviderName} **.",
                 "pick_auth_provider": "یا وارد سیستم شوید",
                 "abort_intro": "ورود به سیستم لغو شد",
@@ -808,7 +808,7 @@
                     },
                     "migrate": {
                         "para_no_id": "این عنصر ID ندارد لطفا یک شناسه را برای این عنصر در ui-lovelace.yaml اضافه کنید.",
-                        "para_migrate": "صفحه اصلی  home assistant می تواند با استفاده از دکمه 'Migrate config' به صورت خودکار برای شما کارت شناسایی را به تمام کارت های خود اضافه کند.",
+                        "para_migrate": "صفحه اصلی  JAVIS Home می تواند با استفاده از دکمه 'Migrate config' به صورت خودکار برای شما کارت شناسایی را به تمام کارت های خود اضافه کند.",
                         "migrate": "انتقال پیکربندی"
                     },
                     "header": "ویرایش رابط کاربری",
@@ -818,7 +818,7 @@
                     },
                     "save_config": {
                         "header": "کنترل UI Lovelace خود را بگیرید",
-                        "para": "به طور پیش فرض Home Assistant رابط کاربر خود را حفظ می کند، آن را به روز می کند زمانی که موجودیت های جدید و یا اجزای Lovelace در دسترس قرار گیرد. اگر کنترل داشته باشید دیگر تغییرات را برای شما انجام نخواهیم داد.",
+                        "para": "به طور پیش فرض JAVIS Home رابط کاربر خود را حفظ می کند، آن را به روز می کند زمانی که موجودیت های جدید و یا اجزای Lovelace در دسترس قرار گیرد. اگر کنترل داشته باشید دیگر تغییرات را برای شما انجام نخواهیم داد.",
                         "para_sure": "آیا مطمئن هستید که میخواهید کنترل رابط کاربری خود را کنترل کنید؟",
                         "cancel": "بیخیال",
                         "save": "کنترل را به دست گرفتن"
@@ -1038,7 +1038,7 @@
         "vacuum": "خلاء",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "سلامت سیستم",
         "person": "فرد"

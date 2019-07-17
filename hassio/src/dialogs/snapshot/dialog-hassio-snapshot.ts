@@ -20,7 +20,7 @@ const _computeFolders = (folders) => {
   if (folders.includes("homeassistant")) {
     list.push({
       slug: "homeassistant",
-      name: "Home Assistant configuration",
+      name: "JAVIS Home configuration",
       checked: true,
     });
   }
@@ -118,9 +118,9 @@ class HassioSnapshotDialog extends PolymerElement {
           [[_computeType(snapshot.type)]] ([[_computeSize(snapshot.size)]])<br />
           [[_formatDatetime(snapshot.date)]]
         </div>
-        <div>Home Assistant:</div>
+        <div>JAVIS Home:</div>
         <paper-checkbox checked="{{restoreHass}}">
-          Home Assistant [[snapshot.homeassistant]]
+          JAVIS Home [[snapshot.homeassistant]]
         </paper-checkbox>
         <template is="dom-if" if="[[_folders.length]]">
           <div>Folders:</div>

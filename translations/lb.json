@@ -341,8 +341,8 @@
                 "delete_button": "Löschen"
             },
             "config": {
-                "header": "Home Assistant astellen",
-                "introduction": "Hei ass et méiglech är Komponenten vum Home Assistant ze konfiguréieren. Net alles ass méiglech fir iwwert den Interface anzestellen, mee mir schaffen drun.",
+                "header": "JAVIS Home astellen",
+                "introduction": "Hei ass et méiglech är Komponenten vum JAVIS Home ze konfiguréieren. Net alles ass méiglech fir iwwert den Interface anzestellen, mee mir schaffen drun.",
                 "core": {
                     "caption": "Generell",
                     "description": "Konfiguratioun validéieren an de Server kontrolléieren",
@@ -359,7 +359,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfiguratioun gëtt frësch gelueden",
-                                "introduction": "E puer Deeler vum Home Assistant kënne frësch geluede ginn ouni datt een Neistart néideg ass. Klick op nei luede fir di aktuell Konfiguratioun z'entlueden an di nei Konfiguratioun ze lueden.",
+                                "introduction": "E puer Deeler vum JAVIS Home kënne frësch geluede ginn ouni datt een Neistart néideg ass. Klick op nei luede fir di aktuell Konfiguratioun z'entlueden an di nei Konfiguratioun ze lueden.",
                                 "core": "Kär nei lueden",
                                 "group": "Gruppe nei lueden",
                                 "automation": "Automatismen nei lueden",
@@ -367,13 +367,13 @@
                             },
                             "server_management": {
                                 "heading": "Serververwaltung",
-                                "introduction": "Kontrolléiert ären Home Assistant Server ... vun Home Assistant aus.",
+                                "introduction": "Kontrolléiert ären JAVIS Home Server ... vun JAVIS Home aus.",
                                 "restart": "Neistart",
                                 "stop": "Stop"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Editeur ass desaktivéiert well d'Konfiguratioun an der configuration.yaml gespäichert ass.",
-                                "location_name": "Numm vun der Home Assistant Installatioun",
+                                "location_name": "Numm vun der JAVIS Home Installatioun",
                                 "latitude": "Breedegrad",
                                 "longitude": "Längegrad",
                                 "elevation": "Héicht",
@@ -402,7 +402,7 @@
                     "description": "Automatismen erstellen an änneren",
                     "picker": {
                         "header": "Automatismen editéieren",
-                        "introduction": "Den Automatismen-Editor erméiglecht et fir Automatismen z'erstellen an ze änneren. Lies w.e.g. [d'Instruktioune](https:\/\/home-assistant.io\/docs\/automation\/editor\/) fir sécher ze stellen dass den Home Assistant richteg agestallt ass.",
+                        "introduction": "Den Automatismen-Editor erméiglecht et fir Automatismen z'erstellen an ze änneren. Lies w.e.g. [d'Instruktioune](https:\/\/home-assistant.io\/docs\/automation\/editor\/) fir sécher ze stellen dass den JAVIS Home richteg agestallt ass.",
                         "pick_automation": "Automatismus fir ze änneren auswielen",
                         "no_automations": "Keen Automatismus fir ze ännere fonnt",
                         "add_automation": "Automatismus dobäisetzen",
@@ -416,7 +416,7 @@
                         "alias": "Numm",
                         "triggers": {
                             "header": "Ausléiser",
-                            "introduction": "Een Ausléiser start de Prozess vun engem Automatismus. Et ass méiglech méi wéi een Ausléiser fir een Automatismus unzeginn. Wann een Ausléiser start validéiert Home Assistant d'Konditiounen a féiert - de Fall gesat - eng Aktioun aus.\n\n[Léier méi iwwert Ausléiser.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Een Ausléiser start de Prozess vun engem Automatismus. Et ass méiglech méi wéi een Ausléiser fir een Automatismus unzeginn. Wann een Ausléiser start validéiert JAVIS Home d'Konditiounen a féiert - de Fall gesat - eng Aktioun aus.\n\n[Léier méi iwwert Ausléiser.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Ausléiser dobäisetzen",
                             "duplicate": "Replikéieren",
                             "delete": "Läschen",
@@ -436,7 +436,7 @@
                                     "for": "Fir"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Evenement:",
                                     "start": "Starten",
                                     "shutdown": "Ausmaachen"
@@ -544,7 +544,7 @@
                         },
                         "actions": {
                             "header": "Aktiounen",
-                            "introduction": "Aktioune déi den Home Assistant ausféiert wann den Automatismus ausgeléist gouf.\n[Léier méi iwwert Aktiounen.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Aktioune déi den JAVIS Home ausféiert wann den Automatismus ausgeléist gouf.\n[Léier méi iwwert Aktiounen.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Aktioun dobäisetzen",
                             "duplicate": "Replikéiere",
                             "delete": "Läschen",
@@ -611,7 +611,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Ageloggt als {email}",
                     "description_not_login": "Net ageloggt",
                     "description_features": "Steiert vun ënnerwee aus, integréiert mam Alexa an Google Assistant."
@@ -628,7 +628,7 @@
                         "no_devices": "Dës Integratioun huet keng Apparater.",
                         "no_device": "Entitéiten ouni Apparater",
                         "delete_confirm": "Sécher fir dës Integratioun ze läsche?",
-                        "restart_confirm": "Start Home Assistant nei fir dës Integratioun ze läschen",
+                        "restart_confirm": "Start JAVIS Home nei fir dës Integratioun ze läschen",
                         "manuf": "vun {manufacturer}",
                         "via": "Verbonnen via",
                         "firmware": "Firmware: {version}",
@@ -668,7 +668,7 @@
                     "description": "Iwwersiicht vun de Beräicher am Haus",
                     "picker": {
                         "header": "Lëscht vun de Beräicher",
-                        "introduction": "Beräicher gi benotzt fir d'Organisatioun vum Standuert vun den Apparater. Dës Informatioun gëtt vum Home Assistant benotzt fir iech ze hëllefe fir den Interface, Berechtegungen an Integratioune mat aner Systemer ze geréieren.",
+                        "introduction": "Beräicher gi benotzt fir d'Organisatioun vum Standuert vun den Apparater. Dës Informatioun gëtt vum JAVIS Home benotzt fir iech ze hëllefe fir den Interface, Berechtegungen an Integratioune mat aner Systemer ze geréieren.",
                         "introduction2": "Fir Apparater an e Beräich ze setzen, benotzt de Link ënne fir op d'Integratiouns Säit ze kommen a klickt do op eng konfiguréiert Integratioun fir d'Kaart vum Apparat unzeweisen.",
                         "integrations_page": "Integratiouns Säit",
                         "no_areas": "Et sinn nach keng Beräicher do!",
@@ -689,8 +689,8 @@
                     "picker": {
                         "header": "Lëscht vun den Entitéiten",
                         "unavailable": "(net verfügbar)",
-                        "introduction": "Home Assistant hält eng Lëscht vun all Entitéit's ID déi eenzel erkennbar ass a bis elo vum System erkannt gouf. All eenzel vun dësen Entitéite kritt eng ID zougewise welch nëmme fir dës Entitéit reservéiert ass.",
-                        "introduction2": "Benotzt d'Lëscht vun den Entitéite fir d'Nimm z'änneren, d'Entitéits ID z'änneren oder d'Entrée aus dem Home Assistant ze läschen. Remarque: Läsche vun der Entitéit aus der Lëscht läscht d'Entitéit selwer net. Fir dës ze läsche follegt dem Link ënnen a läscht et op der Integratiouns Säit.",
+                        "introduction": "JAVIS Home hält eng Lëscht vun all Entitéit's ID déi eenzel erkennbar ass a bis elo vum System erkannt gouf. All eenzel vun dësen Entitéite kritt eng ID zougewise welch nëmme fir dës Entitéit reservéiert ass.",
+                        "introduction2": "Benotzt d'Lëscht vun den Entitéite fir d'Nimm z'änneren, d'Entitéits ID z'änneren oder d'Entrée aus dem JAVIS Home ze läschen. Remarque: Läsche vun der Entitéit aus der Lëscht läscht d'Entitéit selwer net. Fir dës ze läsche follegt dem Link ënnen a läscht et op der Integratiouns Säit.",
                         "integrations_page": "Integratiouns Säit"
                     },
                     "editor": {
@@ -702,7 +702,7 @@
                 },
                 "person": {
                     "caption": "Persounen",
-                    "description": "Verwalt d'Persoune déi vum Home Assistant suivéiert ginn.",
+                    "description": "Verwalt d'Persoune déi vum JAVIS Home suivéiert ginn.",
                     "detail": {
                         "name": "Numm",
                         "device_tracker_intro": "Wiel d'Apparater aus déi zu dëser Persoun gehéieren.",
@@ -744,7 +744,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Lang gëlteg Accèss Jetone",
-                    "description": "Erstellt laang gëlteg Accèss Jetone déi et äre Skripten erlabe mat ärem Home Assistant z'interagéieren. All eenzelen Jeton ass gëlteg fir 10 Joer. Folgend Accèss Jeton sinn am Moment aktiv.",
+                    "description": "Erstellt laang gëlteg Accèss Jetone déi et äre Skripten erlabe mat ärem JAVIS Home z'interagéieren. All eenzelen Jeton ass gëlteg fir 10 Joer. Folgend Accèss Jeton sinn am Moment aktiv.",
                     "learn_auth_requests": "Leiert wéi een \"authenticated requests\" erstellt.",
                     "created_at": "Erstallt um {date}",
                     "confirm_delete": "Sécher fir den Accèss Jeton fir {name} ze läsche?",
@@ -783,7 +783,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialiséiert",
-                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem Home Assistant.",
+                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem JAVIS Home.",
                 "logging_in_with": "Verbannt iech mat **{authProviderName}**.",
                 "pick_auth_provider": "Oder verbannt iech mat",
                 "abort_intro": "Login ofgebrach",
@@ -895,12 +895,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Apparaten a Servicë ginn am Home Assistant als Integratioune representéiert. Dir kënnt si elo astellen, oder méi spéit vun der Konfiguratioun's Säit aus.",
+                    "intro": "Apparaten a Servicë ginn am JAVIS Home als Integratioune representéiert. Dir kënnt si elo astellen, oder méi spéit vun der Konfiguratioun's Säit aus.",
                     "more_integrations": "Méi",
                     "finish": "Ofschléissen"
                 },
                 "core-config": {
-                    "intro": "Hallo {name}, wëllkomm zu Home Assistant. Wéi wëllt dir äert Doheem benennen?",
+                    "intro": "Hallo {name}, wëllkomm zu JAVIS Home. Wéi wëllt dir äert Doheem benennen?",
                     "intro_location": "Mir wëlle wësse wou dir wunnt. Dës Informatioun hëlleft fir Informatiounen unzeweisen an Automatiounen anzeriichten déi op d'Sonne baséieren. Dës Donnéeë ginn nimools ausserhalb vun ärem Netzwierk gedeelt.",
                     "intro_location_detect": "Mir kënne beim Ausfëlle vun dësen Informatiounen hëllefen andeems eng eemoleg Demande bei engem externe Service ugefrot gëtt.",
                     "location_name_default": "Doheem",
@@ -943,7 +943,7 @@
                     "migrate": {
                         "header": "Konfiguratioun net kompatibel",
                         "para_no_id": "Dëst Element huet keng ID. Definéiert w.e.g. eng ID fir dëst Element am 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant kann ID's zu all äre Kaarten automatesch dobäisetzen andeem dir de Knäppche 'Konfiguratioun migréieren' dréckt.",
+                        "para_migrate": "JAVIS Home kann ID's zu all äre Kaarten automatesch dobäisetzen andeem dir de Knäppche 'Konfiguratioun migréieren' dréckt.",
                         "migrate": "Konfiguratioun migréieren"
                     },
                     "header": "UI änneren",
@@ -955,7 +955,7 @@
                     },
                     "save_config": {
                         "header": "Kontroll iwwert Loveloce UI iwwerhuelen",
-                        "para": "Standardméisseg verwalt Home Assistant de Benotzer Interface an aktualiséiert en soubal nei Entitéiten oder Lovelace-Komponenten disponibel sinn. Wann dir d'Kontrolle iwwerhuelt, kënne mir keng automatesch Ännerung méi fir iech maachen.",
+                        "para": "Standardméisseg verwalt JAVIS Home de Benotzer Interface an aktualiséiert en soubal nei Entitéiten oder Lovelace-Komponenten disponibel sinn. Wann dir d'Kontrolle iwwerhuelt, kënne mir keng automatesch Ännerung méi fir iech maachen.",
                         "para_sure": "Sécher fir d'Kontrolle iwwert de Benotzer Interface z'iwwerhuelen?",
                         "cancel": "Vergiess et",
                         "save": "Kontroll iwwerhuelen"
@@ -991,8 +991,8 @@
                     "demo": {
                         "demo_by": "vun {name}",
                         "next_demo": "Nächst Demo",
-                        "introduction": "Wëllkomm doheem! Dir hutt d'Demo vum Home Assistant erreecht wou mir iech déi Bescht Benotzer Interfacen déi vun onser Gemeinschaft erstallt goufen.",
-                        "learn_more": "Méi iwwert Home Assistant liesen"
+                        "introduction": "Wëllkomm doheem! Dir hutt d'Demo vum JAVIS Home erreecht wou mir iech déi Bescht Benotzer Interfacen déi vun onser Gemeinschaft erstallt goufen.",
+                        "learn_more": "Méi iwwert JAVIS Home liesen"
                     }
                 },
                 "config": {
@@ -1262,7 +1262,7 @@
         "vacuum": "Staubsauger",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "System Zoustand",
         "person": "Persoun"

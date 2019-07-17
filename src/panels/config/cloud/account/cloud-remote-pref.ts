@@ -64,8 +64,8 @@ export class CloudRemotePref extends LitElement {
           @change="${this._toggleChanged}"
         ></paper-toggle-button>
         <div class="card-content">
-          Home Assistant Cloud provides a secure remote connection to your
-          instance while away from home. Your instance
+          JAVIS Home Cloud provides a secure remote connection to your instance
+          while away from home. Your instance
           ${remote_connected ? "is" : "will be"} available at
           <a href="https://${remote_domain}" target="_blank">
             https://${remote_domain}</a

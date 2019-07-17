@@ -81,7 +81,7 @@ export class HaPanelCustom extends UpdatingElement {
           tempA.href
         }"?
 
-It will have access to all data in Home Assistant.
+It will have access to all data in JAVIS Home.
 
 (Check docs for the panel_custom component to hide this message)`)
       ) {

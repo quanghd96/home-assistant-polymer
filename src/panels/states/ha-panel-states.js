@@ -318,7 +318,7 @@ class PartialCards extends EventsMixin(NavigateMixin(PolymerElement)) {
       !defaultView &&
       locationName === "Home") ||
       !locationName
-      ? "Home Assistant"
+      ? "JAVIS Home"
       : locationName;
   }
 

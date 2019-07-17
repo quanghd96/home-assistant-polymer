@@ -15,7 +15,7 @@
       crossorigin
     />
     <%= renderTemplate('_header') %>
-    <title>Home Assistant</title>
+    <title>JAVIS Home</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"

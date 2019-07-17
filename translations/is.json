@@ -295,8 +295,8 @@
                 "delete_button": "Eyða"
             },
             "config": {
-                "header": "Stilla af Home Assistant",
-                "introduction": "Hér er mögulegt að stilla af íhluti og Home Assistant. Því miður er ekki hægt að breyta öllu í gegnum viðmótið ennþá, en við erum að vinna í því.",
+                "header": "Stilla af JAVIS Home",
+                "introduction": "Hér er mögulegt að stilla af íhluti og JAVIS Home. Því miður er ekki hægt að breyta öllu í gegnum viðmótið ennþá, en við erum að vinna í því.",
                 "core": {
                     "caption": "Almennt",
                     "description": "Staðfesta að stillingarskráin þín sé rétt og stjórnun á miðlara",
@@ -313,7 +313,7 @@
                             },
                             "reloading": {
                                 "heading": "Endurhleðsla stillinga",
-                                "introduction": "Sumir hlutar af Home Assistant er hægt að hlaða inn að nýju án þess að það krefjist endurræsingar. Með því að velja að endurhlaða þá mun sú aðgerð hlaða inn nýjum stillingum.",
+                                "introduction": "Sumir hlutar af JAVIS Home er hægt að hlaða inn að nýju án þess að það krefjist endurræsingar. Með því að velja að endurhlaða þá mun sú aðgerð hlaða inn nýjum stillingum.",
                                 "core": "Endurhlaða inn kjarna",
                                 "group": "Endurhlaða inn hópum",
                                 "automation": "Endurhlaða inn sjálfvirkni",
@@ -321,13 +321,13 @@
                             },
                             "server_management": {
                                 "heading": "Stjórnun miðlara",
-                                "introduction": "Stjórna Home Assistant miðlara... frá Home Assistant.",
+                                "introduction": "Stjórna JAVIS Home miðlara... frá JAVIS Home.",
                                 "restart": "Endurræsa",
                                 "stop": "Stöðva"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Ritill er óvirkur af því að stillingar eru vistaðar í configuration.yaml.",
-                                "location_name": "Nafnið á Home Assistant uppsetningunni",
+                                "location_name": "Nafnið á JAVIS Home uppsetningunni",
                                 "latitude": "Breiddargráða",
                                 "longitude": "Lengdargráða",
                                 "elevation": "Hækkun",
@@ -384,7 +384,7 @@
                                     "for": "Fyrir"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Viðburður:",
                                     "start": "Ræsing",
                                     "shutdown": "Lokun"
@@ -473,7 +473,7 @@
                         },
                         "actions": {
                             "header": "Aðgerðir",
-                            "introduction": "Aðgerðir er það sem Home Assistant mun gera þegar sjálfvirkni er ræst.",
+                            "introduction": "Aðgerðir er það sem JAVIS Home mun gera þegar sjálfvirkni er ræst.",
                             "add": "Bæta við aðgerð",
                             "duplicate": "Fjölfalda",
                             "delete": "Eyða",
@@ -538,7 +538,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant skýið",
+                    "caption": "JAVIS Home skýið",
                     "description_login": "Innskráð(ur) sem {email}",
                     "description_not_login": "Ekki skráð(ur) inn",
                     "description_features": "Stjórna heimili að heiman með Alexa og Google Assistant."
@@ -594,7 +594,7 @@
                     "description": "Yfirlit yfir öll svæði á heimilinu þínu.",
                     "picker": {
                         "header": "Svæðaskrá",
-                        "introduction": "Svæði eru notuð til að skipuleggja hvar tæki eru staðsett. Þessar upplýsingar verða notaðar innan Home Assistant til að hjálpa þér að skipuleggja viðmótið, réttindi og samþættingar við önnur kerfi.",
+                        "introduction": "Svæði eru notuð til að skipuleggja hvar tæki eru staðsett. Þessar upplýsingar verða notaðar innan JAVIS Home til að hjálpa þér að skipuleggja viðmótið, réttindi og samþættingar við önnur kerfi.",
                         "introduction2": "Til að staðsetja tæki inn á tilteknu svæði þá skal notast við hlekkinn hér fyrir neðan til að vafra yfir á samþættingarsíðu og þar smella á stillta samþættingu til að fá upp spjaldið fyrir tækið.",
                         "integrations_page": "Samþættingar síða",
                         "no_areas": "Það virðist sem að þú hafir engin svæði ennþá!",
@@ -615,7 +615,7 @@
                     "picker": {
                         "header": "Einingarskrá",
                         "unavailable": "(ekki tiltækt)",
-                        "introduction": "Home Assistant heldur bókhald utanum allar einingar sem verið greindar. Hver þessara eininga hafa einingar-auðkenni (ID) sem er frátekið bara fyrir þessa tilteknu einingu.",
+                        "introduction": "JAVIS Home heldur bókhald utanum allar einingar sem verið greindar. Hver þessara eininga hafa einingar-auðkenni (ID) sem er frátekið bara fyrir þessa tilteknu einingu.",
                         "integrations_page": "Samþættingar síða"
                     },
                     "editor": {
@@ -627,7 +627,7 @@
                 },
                 "person": {
                     "caption": "Persónur",
-                    "description": "Stjórna persónum sem Home assistant er að rekja.",
+                    "description": "Stjórna persónum sem JAVIS Home er að rekja.",
                     "detail": {
                         "name": "Nafn",
                         "device_tracker_intro": "Veldu tæki sem tilheyrir þessari persónu.",
@@ -814,7 +814,7 @@
                     "finish": "Ljúka"
                 },
                 "core-config": {
-                    "intro": "Hæ {name}, velkomin(n) í Home Assistant. Hvað á heimilið þitt að heita?",
+                    "intro": "Hæ {name}, velkomin(n) í JAVIS Home. Hvað á heimilið þitt að heita?",
                     "location_name_default": "Heima",
                     "button_detect": "Uppgötva",
                     "finish": "Næsta"
@@ -865,7 +865,7 @@
                     },
                     "save_config": {
                         "header": "Taka yfir stjórn á Lovelace viðmótinu",
-                        "para": "Home Assistant mun sjálfgefið halda utan um notendaviðmótið og uppfæra það þegar nýjar einingar eða Lovlace íhlutir verða aðgengilegir. Ef þú tekur yfir stjórn á viðmótinu þá mun þetta ekki gerast sjálfkrafa fyrir þig.",
+                        "para": "JAVIS Home mun sjálfgefið halda utan um notendaviðmótið og uppfæra það þegar nýjar einingar eða Lovlace íhlutir verða aðgengilegir. Ef þú tekur yfir stjórn á viðmótinu þá mun þetta ekki gerast sjálfkrafa fyrir þig.",
                         "para_sure": "Ertu viss um að þú viljir taka yfir stjórn á notendaviðmótinu þínu?",
                         "cancel": "Gleymdu þessu",
                         "save": "Taka stjórnina"
@@ -900,7 +900,7 @@
                     "demo": {
                         "demo_by": "eftir {name}",
                         "next_demo": "Næsta sýnidæmi",
-                        "learn_more": "Læra meira um Home Assistant"
+                        "learn_more": "Læra meira um JAVIS Home"
                     }
                 },
                 "config": {
@@ -1143,7 +1143,7 @@
         "vacuum": "Ryksuga",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Heilbrigði kerfis",
         "person": "Persóna"

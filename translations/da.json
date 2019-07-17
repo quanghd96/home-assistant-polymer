@@ -341,8 +341,8 @@
                 "delete_button": "Slet"
             },
             "config": {
-                "header": "Konfigurer Home Assistant",
-                "introduction": "Her er det muligt at konfigurere dine komponenter og Home Assistant. Ikke alt er muligt at konfigurere fra brugergrænsefladen endnu, men vi arbejder på det.",
+                "header": "Konfigurer JAVIS Home",
+                "introduction": "Her er det muligt at konfigurere dine komponenter og JAVIS Home. Ikke alt er muligt at konfigurere fra brugergrænsefladen endnu, men vi arbejder på det.",
                 "core": {
                     "caption": "Generelt",
                     "description": "Valider din konfigurationsfil og kontroller serveren",
@@ -359,7 +359,7 @@
                             },
                             "reloading": {
                                 "heading": "Genindlæsning af konfiguration",
-                                "introduction": "Nogle dele af Home Assistant kan genindlæse uden at kræve en genstart. Tryk på \"genindlæs\" vil afmontere deres nuværende konfiguration og indlæse den nye.",
+                                "introduction": "Nogle dele af JAVIS Home kan genindlæse uden at kræve en genstart. Tryk på \"genindlæs\" vil afmontere deres nuværende konfiguration og indlæse den nye.",
                                 "core": "Genindlæs system",
                                 "group": "Genindlæs grupper",
                                 "automation": "Genindlæs automatiseringer",
@@ -367,13 +367,13 @@
                             },
                             "server_management": {
                                 "heading": "Serveradministration",
-                                "introduction": "Kontroller din Home Assistant server... fra Home Assistant.",
+                                "introduction": "Kontroller din JAVIS Home server... fra JAVIS Home.",
                                 "restart": "Genstart",
                                 "stop": "Stop"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Editor er deaktiveret, fordi config er gemt i configuration.yaml.",
-                                "location_name": "Navn på din Home Assistant-installation",
+                                "location_name": "Navn på din JAVIS Home-installation",
                                 "latitude": "Breddegrad",
                                 "longitude": "Længdegrad",
                                 "elevation": "Højde",
@@ -402,7 +402,7 @@
                     "description": "Opret og rediger automatiseringer",
                     "picker": {
                         "header": "Automatiserings editor",
-                        "introduction": "Automatiserings editoren giver dig mulighed for at oprette og redigere automatiseringer. Læs venligst [instruktionerne] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) for at sikre dig, at du har konfigureret Home Assistant korrekt.",
+                        "introduction": "Automatiserings editoren giver dig mulighed for at oprette og redigere automatiseringer. Læs venligst [instruktionerne] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) for at sikre dig, at du har konfigureret JAVIS Home korrekt.",
                         "pick_automation": "Vælg automatisering for at redigere",
                         "no_automations": "Vi kunne ikke finde nogen redigerbare automatiseringer",
                         "add_automation": "Tilføj automatisering",
@@ -416,7 +416,7 @@
                         "alias": "Navn",
                         "triggers": {
                             "header": "Udløser",
-                            "introduction": "Udløsere er, hvad der begynder behandlingen af en automatiseringsregel. Det er muligt at angive flere udløsere for samme regel. Når en udløser starter, vil Home Assistant validere eventuelle betingelser og udføre handlingen. \n\n [Lær mere om udløsere.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Udløsere er, hvad der begynder behandlingen af en automatiseringsregel. Det er muligt at angive flere udløsere for samme regel. Når en udløser starter, vil JAVIS Home validere eventuelle betingelser og udføre handlingen. \n\n [Lær mere om udløsere.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Tilføj udløser",
                             "duplicate": "Kopier",
                             "delete": "Slet",
@@ -436,7 +436,7 @@
                                     "for": "Varighed"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Begivenhed",
                                     "start": "Start",
                                     "shutdown": "Luk ned"
@@ -544,7 +544,7 @@
                         },
                         "actions": {
                             "header": "Handlinger",
-                            "introduction": "Handlinger er, hvad Home Assistant skal gøre, når automatiseringen udløses. \n\n [Lær mere om handlinger.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Handlinger er, hvad JAVIS Home skal gøre, når automatiseringen udløses. \n\n [Lær mere om handlinger.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Tilføj automatisering",
                             "duplicate": "Kopier",
                             "delete": "Slet",
@@ -611,7 +611,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Logget ind som {email}",
                     "description_not_login": "Ikke logget ind"
                 },
@@ -627,7 +627,7 @@
                         "no_devices": "Denne integration har ingen enheder",
                         "no_device": "Entiteter uden enhed",
                         "delete_confirm": "Er du sikker på, at du vil fjerne denne integration?",
-                        "restart_confirm": "Genstart Home Assistant for at afslutte fjernelsen af denne integration",
+                        "restart_confirm": "Genstart JAVIS Home for at afslutte fjernelsen af denne integration",
                         "manuf": "af {manufacturer}",
                         "via": "Forbundet via",
                         "firmware": "Firmware: {version}",
@@ -664,7 +664,7 @@
                     "description": "Oversigt over alle områder i dit hjem.",
                     "picker": {
                         "header": "Områderegistrering",
-                        "introduction": "Områder bruges til at organisere hvor enhederne er. Disse oplysninger vil blive brugt i Home Assistant til at hjælpe dig med at organisere din grænseflade, tilladelser og integrationer med andre systemer.",
+                        "introduction": "Områder bruges til at organisere hvor enhederne er. Disse oplysninger vil blive brugt i JAVIS Home til at hjælpe dig med at organisere din grænseflade, tilladelser og integrationer med andre systemer.",
                         "introduction2": "Hvis du vil placere enheder i et område, skal du bruge linket herunder til at navigere til integrationssiden og derefter klikke på en konfigureret integration for at komme til enhedskortene.",
                         "integrations_page": "Integrationsside",
                         "no_areas": "Du ikke har ingen områder endnu!",
@@ -685,8 +685,8 @@
                     "picker": {
                         "header": "Enhedsregistrering",
                         "unavailable": "(utilgængelig)",
-                        "introduction": "Home Assistant opbevarer en registrering over hver unikke enhed det nogensinde har set. Hver af disse enheder vil have et registrerings ID tildelt som er forbeholdt netop denne enhed.",
-                        "introduction2": "Brug enhedsregistrering til at overskrive navnet, ændre enheds ID eller fjerne enheden fra Home Assistant. Bemærk at fjernelse af enhedens registrering ikke fjerner enheden. For at gøre det skal du følge linket herunder og fjerne det fra integrationssiden.",
+                        "introduction": "JAVIS Home opbevarer en registrering over hver unikke enhed det nogensinde har set. Hver af disse enheder vil have et registrerings ID tildelt som er forbeholdt netop denne enhed.",
+                        "introduction2": "Brug enhedsregistrering til at overskrive navnet, ændre enheds ID eller fjerne enheden fra JAVIS Home. Bemærk at fjernelse af enhedens registrering ikke fjerner enheden. For at gøre det skal du følge linket herunder og fjerne det fra integrationssiden.",
                         "integrations_page": "Integrationsside"
                     },
                     "editor": {
@@ -698,7 +698,7 @@
                 },
                 "person": {
                     "caption": "Personer",
-                    "description": "Administrer de personer som Home Assistant skal spore.",
+                    "description": "Administrer de personer som JAVIS Home skal spore.",
                     "detail": {
                         "name": "Navn",
                         "device_tracker_intro": "Vælg de enheder, der tilhører denne person.",
@@ -740,7 +740,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Langtids Access Tokens",
-                    "description": "Opret langtids adgangstokener, så dine scripts kan forbinde med din Home Assistant instans. Hver token er gyldig i 10 år fra oprettelsen. Følgende langtids adgangstokener er i øjeblikket aktive.",
+                    "description": "Opret langtids adgangstokener, så dine scripts kan forbinde med din JAVIS Home instans. Hver token er gyldig i 10 år fra oprettelsen. Følgende langtids adgangstokener er i øjeblikket aktive.",
                     "learn_auth_requests": "Lær, hvordan du laver godkendte forespørgsler.",
                     "created_at": "Oprettet den {date}",
                     "confirm_delete": "Er du sikker på, at du vil slette adgangstoken til {name} ?",
@@ -779,7 +779,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialiserer",
-                "authorizing_client": "Du er ved at give {clientId} adgang til din Home Assistant-instans.",
+                "authorizing_client": "Du er ved at give {clientId} adgang til din JAVIS Home-instans.",
                 "logging_in_with": "Log ind med **{authProviderName}**.",
                 "pick_auth_provider": "Eller log ind med",
                 "abort_intro": "Login afbrudt",
@@ -895,7 +895,7 @@
                     "finish": "Afslut"
                 },
                 "core-config": {
-                    "intro": "Hej {name}, velkommen til Home Assistant. Hvordan vil du navngive dit hjem?",
+                    "intro": "Hej {name}, velkommen til JAVIS Home. Hvordan vil du navngive dit hjem?",
                     "intro_location": "Vi vil gerne vide, hvor du bor. Disse oplysninger hjælper med at vise information og opsætte solbaserede automationer. Disse data deles aldrig uden for dit netværk.",
                     "intro_location_detect": "Vi kan hjælpe dig med at udfylde disse oplysninger ved at foretage en engangsforespørgsel til en ekstern service.",
                     "location_name_default": "Hjem",
@@ -950,7 +950,7 @@
                     },
                     "save_config": {
                         "header": "Tage kontrol over din 2Lovelace\" UI",
-                        "para": "Som standard vil Home Assistant vedligeholde din brugergrænseflade ved at opdatere den når nye enheder eller \"Lovelace\" komponenter bliver tilgængelige. Hvis du overtager kontrollen, vil vi ikke længere foretage ændringer automatisk for dig.",
+                        "para": "Som standard vil JAVIS Home vedligeholde din brugergrænseflade ved at opdatere den når nye enheder eller \"Lovelace\" komponenter bliver tilgængelige. Hvis du overtager kontrollen, vil vi ikke længere foretage ændringer automatisk for dig.",
                         "para_sure": "Er du sikker på du ønsker at tage kontrol over din brugergrænseflade?",
                         "cancel": "Glem det",
                         "save": "tag kontrol"
@@ -986,7 +986,7 @@
                     "demo": {
                         "demo_by": "af {name}",
                         "next_demo": "Næste demo",
-                        "introduction": "Velkommen hjem! Du er kommet til Home assistant's demo hvor vi viser de bedste bruger interfaces lavet i bruger gruppen.\n",
+                        "introduction": "Velkommen hjem! Du er kommet til JAVIS Home's demo hvor vi viser de bedste bruger interfaces lavet i bruger gruppen.\n",
                         "learn_more": "Læs mere om Home-Assistent"
                     }
                 },
@@ -1257,7 +1257,7 @@
         "vacuum": "Støvsuger",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Systemsundhed",
         "person": "Person"

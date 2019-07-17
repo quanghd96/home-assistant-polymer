@@ -28,8 +28,8 @@ class HassioHassUpdate extends PolymerElement {
           <div class="card-group">
             <paper-card heading="Update available! 🎉">
               <div class="card-content">
-                Home Assistant [[hassInfo.last_version]] is available and you
-                are currently running Home Assistant [[hassInfo.version]].
+                JAVIS Home [[hassInfo.last_version]] is available and you are
+                currently running JAVIS Home [[hassInfo.version]].
                 <template is="dom-if" if="[[error]]">
                   <div class="error">Error: [[error]]</div>
                 </template>

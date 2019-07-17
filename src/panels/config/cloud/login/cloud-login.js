@@ -71,28 +71,27 @@ class CloudLogin extends NavigateMixin(EventsMixin(PolymerElement)) {
       <hass-subpage header="Cloud Login">
         <div class="content">
           <ha-config-section is-wide="[[isWide]]">
-            <span slot="header">Home Assistant Cloud</span>
+            <span slot="header">JAVIS Home Cloud</span>
             <div slot="introduction">
               <p>
-                Home Assistant Cloud provides you with a secure remote
-                connection to your instance while away from home. It also allows
-                you to connect with cloud-only services: Amazon Alexa and Google
+                JAVIS Home Cloud provides you with a secure remote connection to
+                your instance while away from home. It also allows you to
+                connect with cloud-only services: Amazon Alexa and Google
                 Assistant.
               </p>
               <p>
                 This service is run by our partner
                 <a href="https://www.nabucasa.com" target="_blank"
                   >Nabu&nbsp;Casa,&nbsp;Inc</a
-                >, a company founded by the founders of Home Assistant and
-                Hass.io.
+                >, a company founded by the founders of JAVIS Home and Hass.io.
               </p>
               <p>
-                Home Assistant Cloud is a subscription service with a free one
-                month trial. No payment information necessary.
+                JAVIS Home Cloud is a subscription service with a free one month
+                trial. No payment information necessary.
               </p>
               <p>
                 <a href="https://www.nabucasa.com" target="_blank"
-                  >Learn more about Home Assistant Cloud</a
+                  >Learn more about JAVIS Home Cloud</a
                 >
               </p>
             </div>

@@ -325,8 +325,8 @@
                 "delete_button": "Dzēst"
             },
             "config": {
-                "header": "Home Assistant konfigurēšana",
-                "introduction": "Šeit iespējams konfigurēt Jūsu komponentus un pašu Home Assistant. Pagaidām ne visu ir iespējams konfigurēt no lietotāja saskarnes, bet mēs strādājam pie tā.",
+                "header": "JAVIS Home konfigurēšana",
+                "introduction": "Šeit iespējams konfigurēt Jūsu komponentus un pašu JAVIS Home. Pagaidām ne visu ir iespējams konfigurēt no lietotāja saskarnes, bet mēs strādājam pie tā.",
                 "core": {
                     "caption": "Vispārīgi",
                     "description": "Veiciet konfigurācijas failu pārbaudi un pārvaldiet serveri",
@@ -343,7 +343,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfigurācijas pārlādēšana",
-                                "introduction": "Atsevišķas Home Assistant daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
+                                "introduction": "Atsevišķas JAVIS Home daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
                                 "core": "Pārlādēt kodolu",
                                 "group": "Pārlādēt grupas",
                                 "automation": "Pārlādēt automatizācijas",
@@ -351,7 +351,7 @@
                             },
                             "server_management": {
                                 "heading": "Servera pārvaldība",
-                                "introduction": "Pārvaldiet Home Assistant serveri no Home Assistant saskarnes.",
+                                "introduction": "Pārvaldiet JAVIS Home serveri no JAVIS Home saskarnes.",
                                 "restart": "Restartēt",
                                 "stop": "Apturēt"
                             }
@@ -367,7 +367,7 @@
                     "description": "Veidojiet un rediģējiet automatizācijas",
                     "picker": {
                         "header": "Automatizāciju redaktors",
-                        "introduction": "Automatizācijas redaktors ļauj jums izveidot un rediģēt automatizācijas. Lūdzu, sekojiet [norādījumiem] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), lai pārliecinātos, ka esat pareizi konfigurējis Home Assistant.",
+                        "introduction": "Automatizācijas redaktors ļauj jums izveidot un rediģēt automatizācijas. Lūdzu, sekojiet [norādījumiem] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), lai pārliecinātos, ka esat pareizi konfigurējis JAVIS Home.",
                         "pick_automation": "Izvēlieties automatizāciju rediģēšanai",
                         "no_automations": "Mēs nevarējām atrast rediģējamas automatizācijas",
                         "add_automation": "Pievienot automatizāciju"
@@ -380,7 +380,7 @@
                         "alias": "Nosaukums",
                         "triggers": {
                             "header": "Trigeri",
-                            "introduction": "Trigeri ir tas, kas sāk automatizācijas noteikuma apstrādi. Vienam noteikumam ir iespējams norādīt vairākus trigerus. Kad trigeris sāk, Home Assistant apstiprina nosacījumus, ja tādi ir, un izsauc darbību. \n\n [Uzziniet vairāk par trigeriem.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Trigeri ir tas, kas sāk automatizācijas noteikuma apstrādi. Vienam noteikumam ir iespējams norādīt vairākus trigerus. Kad trigeris sāk, JAVIS Home apstiprina nosacījumus, ja tādi ir, un izsauc darbību. \n\n [Uzziniet vairāk par trigeriem.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Pievienot trigeri",
                             "duplicate": "Dublicēt",
                             "delete": "Dzēst",
@@ -400,7 +400,7 @@
                                     "for": "Uz"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Notikums:",
                                     "start": "Sākt",
                                     "shutdown": "Izslēgt"
@@ -501,7 +501,7 @@
                         },
                         "actions": {
                             "header": "Darbības",
-                            "introduction": "Darbības ir tādas, kādas Home Assistant veiks, kad tiks aktivizēta automatizācija. \n\n [Uzziniet vairāk par darbībām.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Darbības ir tādas, kādas JAVIS Home veiks, kad tiks aktivizēta automatizācija. \n\n [Uzziniet vairāk par darbībām.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Pievienot darbību",
                             "duplicate": "Dublicēt",
                             "delete": "Dzēst",
@@ -565,7 +565,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "JAVIS Home Cloud",
                     "description_login": "Pieteikts kā {email}",
                     "description_not_login": "Neesat pieteicies"
                 },
@@ -581,7 +581,7 @@
                         "no_devices": "Šai integrācijai nav ierīču.",
                         "no_device": "Vienības, bez ierīcēm",
                         "delete_confirm": "Vai tiešām vēlaties dzēst šo integrāciju?",
-                        "restart_confirm": "Restartēt Home Assistant, lai pabeigtu šīs integrācijas noņemšanu",
+                        "restart_confirm": "Restartēt JAVIS Home, lai pabeigtu šīs integrācijas noņemšanu",
                         "manuf": "{manufacturer}",
                         "via": "Savienots ar",
                         "firmware": "Programmaparatūra: {version}",
@@ -630,7 +630,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Ilgtermiņas piekļuves pilnvaras",
-                    "description": "Izveidojiet ilgtermiņa piekļuves pilnvaras, lai ļautu jūsu skriptiem mijiedarboties ar jūsu Home Assistant instanci. Katra pilnvara būs derīga 10 gadus pēc tās radīšanas. Pašlaik ir aktīvi šādas ilgstošas piekļuves pilvaras.",
+                    "description": "Izveidojiet ilgtermiņa piekļuves pilnvaras, lai ļautu jūsu skriptiem mijiedarboties ar jūsu JAVIS Home instanci. Katra pilnvara būs derīga 10 gadus pēc tās radīšanas. Pašlaik ir aktīvi šādas ilgstošas piekļuves pilvaras.",
                     "learn_auth_requests": "Uzziniet, kā veikt autentificētus pieprasījumus.",
                     "created_at": "Izveidots {date}",
                     "confirm_delete": "Vai tiešām vēlaties dzēst piekļuves pilnvaru {name}?",
@@ -669,7 +669,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializēšana",
-                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu Home Assistant.",
+                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu JAVIS Home.",
                 "logging_in_with": "Pieteikšanās ar ** {authProviderName} **.",
                 "pick_auth_provider": "Vai pieteikties, izmantojot",
                 "abort_intro": "Pieteikšanās priekšlaikus pārtraukta",
@@ -803,7 +803,7 @@
                     "migrate": {
                         "header": "Nesaderīga konfigurācija",
                         "para_no_id": "Šim elementam nav ID. Lūdzu, pievienojiet ID šim elementam 'ui-lovelace.yaml' failā.",
-                        "para_migrate": "Home Assistant var automātiski pievienot ID visām kartītēm un skatiem, nospiežot pogu \"Pārvietot konfigurāciju\".",
+                        "para_migrate": "JAVIS Home var automātiski pievienot ID visām kartītēm un skatiem, nospiežot pogu \"Pārvietot konfigurāciju\".",
                         "migrate": "Pārvietot konfigurāciju"
                     },
                     "header": "Rediģēt lietotāja saskarni",
@@ -815,7 +815,7 @@
                     },
                     "save_config": {
                         "header": "Pārņemt kontroli pār savu Lovelace lietotāja saskarni",
-                        "para": "Pēc noklusējuma Home Assistant uzturēs jūsu lietotāja saskarni, atjauninot to, kad būs pieejami jauni objekti vai Lovelace komponenti. Ja jūs uzņematies kontroli, mēs jums vairs neveiksim izmaiņas automātiski jūsu vietā.",
+                        "para": "Pēc noklusējuma JAVIS Home uzturēs jūsu lietotāja saskarni, atjauninot to, kad būs pieejami jauni objekti vai Lovelace komponenti. Ja jūs uzņematies kontroli, mēs jums vairs neveiksim izmaiņas automātiski jūsu vietā.",
                         "para_sure": "Vai tiešām vēlaties pārņemt kontroli pār lietotāja saskarni?",
                         "cancel": "Atcelt",
                         "save": "Pārņemt kontroli"
@@ -1069,7 +1069,7 @@
         "vacuum": "Putekļsūcējs",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace"
     },
     "attribute": {

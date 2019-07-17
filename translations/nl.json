@@ -342,8 +342,8 @@
                 "delete_button": "Verwijderen"
             },
             "config": {
-                "header": "Configureer Home Assistant",
-                "introduction": "Hier kun je je componenten en Home Assistant configureren. Het is nog niet mogelijk om alles te configureren vanuit de interface, maar we werken er aan.",
+                "header": "Configureer JAVIS Home",
+                "introduction": "Hier kun je je componenten en JAVIS Home configureren. Het is nog niet mogelijk om alles te configureren vanuit de interface, maar we werken er aan.",
                 "core": {
                     "caption": "Algemeen",
                     "description": "Valideer je configuratiebestand en beheer de server",
@@ -360,7 +360,7 @@
                             },
                             "reloading": {
                                 "heading": "Configuratie herladen",
-                                "introduction": "Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je herladen gebruikt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen.",
+                                "introduction": "Sommige delen van JAVIS Home kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je herladen gebruikt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen.",
                                 "core": "Herlaad kern",
                                 "group": "Herlaad groepen",
                                 "automation": "Herlaad automatiseringen",
@@ -368,13 +368,13 @@
                             },
                             "server_management": {
                                 "heading": "Serverbeheer",
-                                "introduction": "Beheer je Home Assistant-server ... vanuit Home Assistant.",
+                                "introduction": "Beheer je JAVIS Home-server ... vanuit JAVIS Home.",
                                 "restart": "Herstarten",
                                 "stop": "Stop"
                             },
                             "core_config": {
                                 "edit_requires_storage": "Editor uitgeschakeld omdat de configuratie is opgeslagen in configuration.yaml",
-                                "location_name": "Naam van Home Assistant installatie",
+                                "location_name": "Naam van JAVIS Home installatie",
                                 "latitude": "Breedtegraad",
                                 "longitude": "Lengtegraad",
                                 "elevation": "Hoogte",
@@ -403,7 +403,7 @@
                     "description": "Het maken en bewerken van automatiseringen",
                     "picker": {
                         "header": "Automatiseringsbewerker",
-                        "introduction": "Met de automatiseringsbewerker kun je automatiseringen maken en bewerken. Lees [de instructies](https:\/\/home-assistant.io\/docs\/automation\/editor\/) om er zeker van te zijn dat je Home Assistant juist hebt geconfigureerd.",
+                        "introduction": "Met de automatiseringsbewerker kun je automatiseringen maken en bewerken. Lees [de instructies](https:\/\/home-assistant.io\/docs\/automation\/editor\/) om er zeker van te zijn dat je JAVIS Home juist hebt geconfigureerd.",
                         "pick_automation": "Kies te bewerken automatisering",
                         "no_automations": "We konden geen bewerkbare automatiseringen vinden",
                         "add_automation": "Automatisering toevoegen",
@@ -417,7 +417,7 @@
                         "alias": "Naam",
                         "triggers": {
                             "header": "",
-                            "introduction": "Triggers starten de verwerking van een automatiseringsregel. Het is mogelijk om meerdere triggers voor dezelfde regel op te geven. Zodra een trigger start, valideert Home Assistant de eventuele voorwaarden en roept hij de actie aan. \n\n [Meer informatie over triggers.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Triggers starten de verwerking van een automatiseringsregel. Het is mogelijk om meerdere triggers voor dezelfde regel op te geven. Zodra een trigger start, valideert JAVIS Home de eventuele voorwaarden en roept hij de actie aan. \n\n [Meer informatie over triggers.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Trigger toevoegen",
                             "duplicate": "Dupliceren",
                             "delete": "Verwijderen",
@@ -545,7 +545,7 @@
                         },
                         "actions": {
                             "header": "Acties",
-                            "introduction": "De acties zijn wat Home Assistant zal doen wanneer de automatisering wordt geactiveerd. \n\n [Lees meer over acties.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "De acties zijn wat JAVIS Home zal doen wanneer de automatisering wordt geactiveerd. \n\n [Lees meer over acties.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Actie toevoegen",
                             "duplicate": "Dupliceer",
                             "delete": "Verwijderen",
@@ -653,7 +653,7 @@
                         "no_devices": "Deze integratie heeft geen apparaten.",
                         "no_device": "Entiteiten zonder apparaten",
                         "delete_confirm": "Weet u zeker dat u deze integratie wilt verwijderen?",
-                        "restart_confirm": "Herstart Home Assistant om het verwijderen van deze integratie te voltooien",
+                        "restart_confirm": "Herstart JAVIS Home om het verwijderen van deze integratie te voltooien",
                         "manuf": "door {manufacturer}",
                         "via": "Verbonden via",
                         "firmware": "Firmware: {version}",
@@ -693,7 +693,7 @@
                     "description": "Overzicht van alle gebieden in je huis.",
                     "picker": {
                         "header": "Gebiedenregister",
-                        "introduction": "Gebieden worden gebruikt om te bepalen waar apparaten zijn. Deze informatie wordt overal in de Home Assistant gebruikt om u te helpen bij het organiseren van uw interface, machtigingen en integraties met andere systemen.",
+                        "introduction": "Gebieden worden gebruikt om te bepalen waar apparaten zijn. Deze informatie wordt overal in de JAVIS Home gebruikt om u te helpen bij het organiseren van uw interface, machtigingen en integraties met andere systemen.",
                         "introduction2": "Als u apparaten in een Gebied wilt plaatsen, gebruikt u de onderstaande koppeling om naar de integratiespagina te gaan en vervolgens op een geconfigureerde integratie te klikken om naar de apparaatkaarten te gaan.",
                         "integrations_page": "Integratiespagina",
                         "no_areas": "Het lijkt erop dat je nog geen ruimtes hebt!",
@@ -714,8 +714,8 @@
                     "picker": {
                         "header": "Entiteitenregister",
                         "unavailable": "(niet beschikbaar)",
-                        "introduction": "Home Assistant houdt een register bij van elke entiteit die het ooit heeft gezien en die uniek kan worden geïdentificeerd. Elk van deze entiteiten krijgt een entiteit-ID toegewezen die alleen voor deze entiteit wordt gereserveerd.",
-                        "introduction2": "Gebruik het entiteitenregister om de naam te overschrijven, de entiteits-ID te wijzigen of het item te verwijderen uit de Home Assistant. Opmerking: als u de entiteitsregistervermelding verwijdert, wordt de entiteit niet verwijderd. Hiertoe volgt u de onderstaande koppeling en verwijdert u deze van de integratiespagina.",
+                        "introduction": "JAVIS Home houdt een register bij van elke entiteit die het ooit heeft gezien en die uniek kan worden geïdentificeerd. Elk van deze entiteiten krijgt een entiteit-ID toegewezen die alleen voor deze entiteit wordt gereserveerd.",
+                        "introduction2": "Gebruik het entiteitenregister om de naam te overschrijven, de entiteits-ID te wijzigen of het item te verwijderen uit de JAVIS Home. Opmerking: als u de entiteitsregistervermelding verwijdert, wordt de entiteit niet verwijderd. Hiertoe volgt u de onderstaande koppeling en verwijdert u deze van de integratiespagina.",
                         "integrations_page": "Integratiespagina"
                     },
                     "editor": {
@@ -727,7 +727,7 @@
                 },
                 "person": {
                     "caption": "Personen",
-                    "description": "Beheer de personen die Home Assistant volgt.",
+                    "description": "Beheer de personen die JAVIS Home volgt.",
                     "detail": {
                         "name": "Naam",
                         "device_tracker_intro": "Selecteer de apparaten die bij deze persoon horen.",
@@ -769,7 +769,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Toegangtokens met lange levensduur",
-                    "description": "Maak toegangstokens met een lange levensduur zodat uw scripts kunnen communiceren met uw Home Assistant instantie. Elk token is tien jaar geldig vanaf geldig vanaf de aanmaakdatum. De volgende langlevende toegangstokens zijn momenteel actief.",
+                    "description": "Maak toegangstokens met een lange levensduur zodat uw scripts kunnen communiceren met uw JAVIS Home instantie. Elk token is tien jaar geldig vanaf geldig vanaf de aanmaakdatum. De volgende langlevende toegangstokens zijn momenteel actief.",
                     "learn_auth_requests": "Kom te weten hoe u geverifieerde verzoeken kunt maken",
                     "created_at": "Gemaakt op {date}",
                     "confirm_delete": "Weet u zeker dat u de toegangstoken voor {name} wilt verwijderen?",
@@ -808,7 +808,7 @@
             },
             "page-authorize": {
                 "initializing": "Initialiseren",
-                "authorizing_client": "U staat op het punt {clientId} toegang te geven tot uw Home Assistant-instantie.",
+                "authorizing_client": "U staat op het punt {clientId} toegang te geven tot uw JAVIS Home-instantie.",
                 "logging_in_with": "Aan het inloggen met **{authProviderName}**.",
                 "pick_auth_provider": "Of log in met",
                 "abort_intro": "Inloggen afgebroken",
@@ -920,12 +920,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Apparaten en services worden in Home Assistant weergegeven als integraties. U kunt ze nu instellen of later via het configuratiescherm.",
+                    "intro": "Apparaten en services worden in JAVIS Home weergegeven als integraties. U kunt ze nu instellen of later via het configuratiescherm.",
                     "more_integrations": "Meer",
                     "finish": "Voltooien"
                 },
                 "core-config": {
-                    "intro": "Hallo {name} , welkom bij Home Assistant. Welke naam wil je je huis geven?",
+                    "intro": "Hallo {name} , welkom bij JAVIS Home. Welke naam wil je je huis geven?",
                     "intro_location": "We willen graag weten waar je woont. Deze informatie zal helpen bij het weergeven van informatie en het instellen van zongebaseerde automatiseringen. Deze gegevens worden nooit gedeeld buiten uw netwerk.",
                     "intro_location_detect": "Wij kunnen u helpen deze informatie in te vullen door een eenmalig verbinding te maken met een externe service.",
                     "location_name_default": "Huis",
@@ -968,7 +968,7 @@
                     "migrate": {
                         "header": "Configuratie incompatibel",
                         "para_no_id": "Dit element heeft geen ID. Voeg een ID toe aan dit element in 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant kan ID's voor al je kaarten en weergaven automatisch voor je toevoegen door op de knop 'Migrate config' te klikken.",
+                        "para_migrate": "JAVIS Home kan ID's voor al je kaarten en weergaven automatisch voor je toevoegen door op de knop 'Migrate config' te klikken.",
                         "migrate": "Configuratie migreren"
                     },
                     "header": "Bewerk UI",
@@ -980,7 +980,7 @@
                     },
                     "save_config": {
                         "header": "Neem de controle over uw Lovelace UI",
-                        "para": "Normaal gesproken onderhoudt Home Assistant je gebruikersinterface en update die met nieuwe entiteiten of Lovelace-onderdelen wanneer deze beschikbaar zijn. Als je het beheer overneemt, zullen we niet langer automatisch wijzigingen aanbrengen.",
+                        "para": "Normaal gesproken onderhoudt JAVIS Home je gebruikersinterface en update die met nieuwe entiteiten of Lovelace-onderdelen wanneer deze beschikbaar zijn. Als je het beheer overneemt, zullen we niet langer automatisch wijzigingen aanbrengen.",
                         "para_sure": "Weet je zeker dat je de controle wilt over je gebruikersinterface?",
                         "cancel": "Laat maar",
                         "save": "Neem over"
@@ -1016,8 +1016,8 @@
                     "demo": {
                         "demo_by": "door {name}",
                         "next_demo": "Volgende demo",
-                        "introduction": "Welkom thuis! Je hebt de Home Assistant demo bereikt waar we de beste UI's van onze community laten zien.",
-                        "learn_more": "Meer informatie over Home Assistant"
+                        "introduction": "Welkom thuis! Je hebt de JAVIS Home demo bereikt waar we de beste UI's van onze community laten zien.",
+                        "learn_more": "Meer informatie over JAVIS Home"
                     }
                 },
                 "config": {
@@ -1288,7 +1288,7 @@
         "vacuum": "Stofzuigen",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Systeemstatus",
         "person": "Persoon"

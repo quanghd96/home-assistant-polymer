@@ -46,7 +46,7 @@ class HaScriptPicker extends LitElement {
               target="_blank"
               >the instructions</a
             >
-            to make sure that you have configured Home Assistant correctly.
+            to make sure that you have configured JAVIS Home correctly.
           </div>
 
           <ha-card header="Pick script to edit">

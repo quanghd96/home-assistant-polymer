@@ -37,15 +37,15 @@ export class CloudAlexaPref extends LitElement {
           @change=${this._enabledToggleChanged}
         ></paper-toggle-button>
         <div class="card-content">
-          With the Alexa integration for Home Assistant Cloud you'll be able to
-          control all your Home Assistant devices via any Alexa-enabled device.
+          With the Alexa integration for JAVIS Home Cloud you'll be able to
+          control all your JAVIS Home devices via any Alexa-enabled device.
           <ul>
             <li>
               <a
                 href="https://skills-store.amazon.com/deeplink/dp/B0772J1QKB?deviceType=app"
                 target="_blank"
               >
-                Enable the Home Assistant skill for Alexa
+                Enable the JAVIS Home skill for Alexa
               </a>
             </li>
             <li>
@@ -65,7 +65,7 @@ export class CloudAlexaPref extends LitElement {
             ? html`
                 <h3>Enable State Reporting</h3>
                 <p>
-                  If you enable state reporting, Home Assistant will send
+                  If you enable state reporting, JAVIS Home will send
                   <b>all</b> state changes of exposed entities to Amazon. This
                   allows you to always see the latest states in the Alexa app
                   and use the state changes to create routines.

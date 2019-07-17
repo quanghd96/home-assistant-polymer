@@ -60,7 +60,7 @@ class HassioSnapshots extends LitElement {
   @property() private _folderList: CheckboxItem[] = [
     {
       slug: "homeassistant",
-      name: "Home Assistant configuration",
+      name: "JAVIS Home configuration",
       checked: true,
     },
     { slug: "ssl", name: "SSL", checked: true },

@@ -89,7 +89,7 @@ export const provideHass = (
   const localLanguage = getLocalLanguage();
 
   const hassObj: MockHomeAssistant = {
-    // Home Assistant properties
+    // JAVIS Home properties
     auth: {} as any,
     connection: {
       addEventListener: () => undefined,

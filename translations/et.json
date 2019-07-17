@@ -340,8 +340,8 @@
                 "delete_button": "Kustuta"
             },
             "config": {
-                "header": "Home Assistant-i seadistamine",
-                "introduction": "Siin saab seadistada oma komponente ja Home Assistant-i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
+                "header": "JAVIS Home-i seadistamine",
+                "introduction": "Siin saab seadistada oma komponente ja JAVIS Home-i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
                 "core": {
                     "caption": "Üldine",
                     "description": "Kontrolli oma seadete faili ja kontrolli serverit",
@@ -358,7 +358,7 @@
                             },
                             "reloading": {
                                 "heading": "Seadete taaslaadimine",
-                                "introduction": "Mõned Home Assistant-i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+                                "introduction": "Mõned JAVIS Home-i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
                                 "core": "Taaslae tuum",
                                 "group": "Taaslae grupid",
                                 "automation": "Taaslae automatiseeringud",
@@ -366,12 +366,12 @@
                             },
                             "server_management": {
                                 "heading": "Serveri haldamine",
-                                "introduction": "Kontrolli oma Home Assistant serverit... Home Assistant-ist.",
+                                "introduction": "Kontrolli oma JAVIS Home serverit... JAVIS Home-ist.",
                                 "restart": "Taaskäivita",
                                 "stop": "Peata"
                             },
                             "core_config": {
-                                "location_name": "Sinu Home Assistant paigalduse nimi",
+                                "location_name": "Sinu JAVIS Home paigalduse nimi",
                                 "latitude": "Laius",
                                 "longitude": "Pikkus",
                                 "elevation": "Kõrgus",
@@ -399,7 +399,7 @@
                     "description": "Loo ja redigeeri automatiseeringuid",
                     "picker": {
                         "header": "Automaatika redaktor",
-                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun järgige allolevat linki, veendumaks, et oled Home Assistant-i õigesti seadistanud.",
+                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun järgige allolevat linki, veendumaks, et oled JAVIS Home-i õigesti seadistanud.",
                         "pick_automation": "Vali muudetav automatiseering",
                         "no_automations": "Me ei leidnud ühtegi muudetavat automatiseeringut",
                         "add_automation": "Lisa automatiseering",
@@ -413,7 +413,7 @@
                         "alias": "Nimi",
                         "triggers": {
                             "header": "Päästikud",
-                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib Home Assistant võimalike tingimuste täidetust ja käivitab tegevuse.",
+                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib JAVIS Home võimalike tingimuste täidetust ja käivitab tegevuse.",
                             "add": "Lisa päästik",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -433,7 +433,7 @@
                                     "for": "Jaoks"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "JAVIS Home",
                                     "event": "Sündmus:",
                                     "start": "Käivitamine",
                                     "shutdown": "Seiskamine"
@@ -541,7 +541,7 @@
                         },
                         "actions": {
                             "header": "Tegevused",
-                            "introduction": "Tegevused on need, mida Home Assistant teeb kui päästik käivitab automatiseeringu.",
+                            "introduction": "Tegevused on need, mida JAVIS Home teeb kui päästik käivitab automatiseeringu.",
                             "add": "Lisa toiming",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -606,7 +606,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant pilv",
+                    "caption": "JAVIS Home pilv",
                     "description_login": "Sisse logitud kui {email}",
                     "description_not_login": "Pole sisse logitud"
                 },
@@ -622,7 +622,7 @@
                         "no_devices": "See sidumine ei hõlma ühtegi seadet",
                         "no_device": "Üksused ilma seadmeteta",
                         "delete_confirm": "Oled kindel, et soovid selle sidumise kustutada?",
-                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita Home Assistant",
+                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita JAVIS Home",
                         "manuf": "{manufacturer}",
                         "via": "Ühendatud",
                         "firmware": "Püsivara: {version}",
@@ -711,7 +711,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Pikaajalised juurdepääsutõendid",
-                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu Home Assistant serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
+                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu JAVIS Home serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
                     "learn_auth_requests": "Loe, kuidas teha tõendatud päringuid.",
                     "created_at": "Loodud {date}",
                     "confirm_delete": "Oled kindel, et soovid kustutada juurdepääsutõendi {name} jaoks?",
@@ -750,7 +750,7 @@
             },
             "page-authorize": {
                 "initializing": "Lähtestan",
-                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma Home Assistant serverile.",
+                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma JAVIS Home serverile.",
                 "logging_in_with": "Login sisse **{authProviderName}** abil.",
                 "pick_auth_provider": "Või logi sisse, kasutades",
                 "abort_intro": "Sisselogimine katkestatud",
@@ -860,7 +860,7 @@
                     "finish": "Lõpeta"
                 },
                 "core-config": {
-                    "intro": "Tere tulemast Home Assistant'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
+                    "intro": "Tere tulemast JAVIS Home'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
                     "intro_location": "Soovime teada, kus sa elad. See teave aitab informatsiooni kuvamisel ja päikesepõhiste automatiseeringute loomisel. Neid andmeid ei jagata kunagi väljaspool teie võrku.",
                     "intro_location_detect": "Me saame aidata sul seda teavet leida, tehes ühekordse päringu välisele teenusele.",
                     "location_name_default": "Kodu",
@@ -1149,7 +1149,7 @@
         "vacuum": "Tühjenda",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "JAVIS Home",
         "lovelace": "Lovelace",
         "system_health": "Süsteemi tervis",
         "person": "Isik"
