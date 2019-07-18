@@ -338,6 +338,11 @@ class HUIRoot extends LitElement {
         paper-item {
           cursor: pointer;
         }
+        #view {
+          background-image: url(local/background.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
       `,
     ];
   }
