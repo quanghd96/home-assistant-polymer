@@ -8,13 +8,16 @@ install: yarn install
 script:
   - npm run build
   - hassio/script/build_hassio
-  - npm run test
-deploy:
-  provider: script
-  script: script/travis_deploy
-  'on':
-    branch: master
+  - cd hass_frontend
+  - git init
+  - git remote 
+  - git add .
+  - git commit -m "update new version"
+  - git remote add origin https://github.com/quanghd96/home-assistant-build.git
+  - git push -uf origin master
 dist: trusty
 addons:
   sauce_connect: true
-
+branches:
+  only:
+  - master
