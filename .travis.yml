@@ -9,6 +9,8 @@ script:
   - npm run build
   - hassio/script/build_hassio
   - cd hass_frontend
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
   - git init
   - git remote 
   - git add .
@@ -21,3 +23,6 @@ addons:
 branches:
   only:
   - master
+env:
+  global:
+    secure: c34c9c15e22bb4b6c74ff08aba38ef3381621aa5
