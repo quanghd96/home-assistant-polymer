@@ -142,7 +142,7 @@
             "heat_pump": "Wärmepumpe",
             "gas": "Gas",
             "manual": "Manuell",
-            "heat_cool": "Automatisch"
+            "heat_cool": "Heizen\/Kühlen"
         },
         "configurator": {
             "configure": "Konfigurieren",
@@ -324,6 +324,9 @@
                     },
                     "mqtt": {
                         "title": "MQTT"
+                    },
+                    "info": {
+                        "title": "Info"
                     }
                 }
             },
@@ -804,7 +807,8 @@
                     "step_done": "Setup für {step} abgeschlossen",
                     "close": "Schließen",
                     "submit": "Absenden"
-                }
+                },
+                "logout": "Abmelden"
             },
             "page-authorize": {
                 "initializing": "Initialisieren",

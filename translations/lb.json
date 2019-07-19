@@ -141,7 +141,8 @@
             "high_demand": "Héich Ufro",
             "heat_pump": "Heizung",
             "gas": "Gas",
-            "manual": "Manuell"
+            "manual": "Manuell",
+            "heat_cool": "Hëtzen\/Ofkillen"
         },
         "configurator": {
             "configure": "Astellen",
@@ -323,6 +324,9 @@
                     },
                     "mqtt": {
                         "title": "MQTT"
+                    },
+                    "info": {
+                        "title": "Info"
                     }
                 }
             },
@@ -586,7 +590,31 @@
                 },
                 "zwave": {
                     "caption": "Z-Wave",
-                    "description": "Verwalt är Z-Wave Netzwierk"
+                    "description": "Verwalt är Z-Wave Netzwierk",
+                    "network_management": {
+                        "header": "Z-Wave Netzwierk Verwaltung",
+                        "introduction": "Féiert Commande aus am Z-Wave Netzwierk. Di kritt kee Feedback op déi meeschte Commande erfollegräich ausgeféiert goufen, mee dir kënnt de OZW Log ënnersiche fir weider Detailer"
+                    },
+                    "network_status": {
+                        "network_stopped": "Z-Wave Netzwierk gestoppt",
+                        "network_starting": "Z-Wave Netzwierk start",
+                        "network_starting_note": "Dës kann eng Weil dauere jee no gréisst vum Netzwierk.",
+                        "network_started": "Z-Wave Netzwierk gestart",
+                        "network_started_note_some_queried": "Aktiv Apparater sinn ofgefrot. Inaktiv Apparater ginn ofgefrot soubal sie aktiv sinn.",
+                        "network_started_note_all_queried": "All Apparater sinn ofgefrot"
+                    },
+                    "services": {
+                        "start_network": "Netzwierk starten",
+                        "stop_network": "Netzwierk stoppen",
+                        "heal_network": "Netzwierk heelen",
+                        "test_network": "Netzwierk testen",
+                        "soft_reset": "Soft Reset",
+                        "save_config": "Konfiguratioun späicheren",
+                        "add_node_secure": "Sëcheren Apparat dobäisetzen",
+                        "add_node": "Apparat dobäisetzen",
+                        "remove_node": "Apparat läschen",
+                        "cancel_command": "Commande ofbriechen"
+                    }
                 },
                 "users": {
                     "caption": "Benotzer",
@@ -779,7 +807,8 @@
                     "step_done": "Konfiguratioun ofgeschloss fir {step}",
                     "close": "Zoumaachen",
                     "submit": "Ofschécken"
-                }
+                },
+                "logout": "Ausloggen"
             },
             "page-authorize": {
                 "initializing": "Initialiséiert",
@@ -1135,7 +1164,8 @@
                 "fan_mode": "Ventilatioun Modus",
                 "swing_mode": "Schwenk Modus",
                 "away_mode": "Modus Keen Doheem",
-                "aux_heat": "Zousätzlech Heizung"
+                "aux_heat": "Zousätzlech Heizung",
+                "preset_mode": "Virastellung"
             },
             "lock": {
                 "code": "Code",
@@ -1280,6 +1310,16 @@
                 "off": "Aus",
                 "on": "Un",
                 "auto": "Autmatesch"
+            },
+            "preset_mode": {
+                "none": "Keen",
+                "eco": "Eco",
+                "away": "Ënnerwee",
+                "boost": "Boost",
+                "comfort": "Bequem",
+                "home": "Doheem",
+                "sleep": "Schlofen",
+                "activity": "Aktivitéit"
             }
         }
     },

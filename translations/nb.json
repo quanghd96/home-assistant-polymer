@@ -142,7 +142,7 @@
             "heat_pump": "Varmepumpe",
             "gas": "Gass",
             "manual": "Manuell",
-            "heat_cool": "Auto"
+            "heat_cool": "Varme\/kjøling"
         },
         "configurator": {
             "configure": "Konfigurer",
@@ -324,6 +324,9 @@
                     },
                     "mqtt": {
                         "title": "MQTT"
+                    },
+                    "info": {
+                        "title": "Info"
                     }
                 }
             },
@@ -804,7 +807,8 @@
                     "step_done": "Oppsett fullført for {step}",
                     "close": "Lukk",
                     "submit": "Send inn"
-                }
+                },
+                "logout": "Logg ut"
             },
             "page-authorize": {
                 "initializing": "Initialiserer",

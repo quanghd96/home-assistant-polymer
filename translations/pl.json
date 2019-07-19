@@ -142,7 +142,7 @@
             "heat_pump": "pompa ciepła",
             "gas": "gaz",
             "manual": "manualnie",
-            "heat_cool": "automatycznie"
+            "heat_cool": "grzanie\/chłodzenie"
         },
         "configurator": {
             "configure": "Skonfiguruj",
@@ -324,6 +324,9 @@
                     },
                     "mqtt": {
                         "title": "MQTT"
+                    },
+                    "info": {
+                        "title": "Informacje"
                     }
                 }
             },
@@ -804,7 +807,8 @@
                     "step_done": "Konfiguracja wykonana dla {step}",
                     "close": "Zamknij",
                     "submit": "Zatwierdź"
-                }
+                },
+                "logout": "Wyloguj"
             },
             "page-authorize": {
                 "initializing": "Inicjowanie",

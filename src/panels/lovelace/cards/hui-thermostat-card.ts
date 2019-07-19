@@ -37,7 +37,7 @@ const thermostatConfig = {
 };
 
 const modeIcons: { [mode in HvacMode]: string } = {
-  auto: "hass:autorenew",
+  auto: "hass:calendar-repeat",
   heat_cool: "hass:autorenew",
   heat: "hass:fire",
   cool: "hass:snowflake",
@@ -116,7 +116,8 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
           [mode]: true,
           large: this._broadCard!,
           small: !this._broadCard,
-        })}">
+        })}"
+      >
         <div id="root">
           <paper-icon-button
             icon="hass:dots-vertical"
@@ -125,28 +126,26 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
           ></paper-icon-button>
           <div id="thermostat"></div>
           <div id="tooltip">
-            <div class="title">${this._config.name ||
-              computeStateName(stateObj)}</div>
+            <div class="title">
+              ${this._config.name || computeStateName(stateObj)}
+            </div>
             <div class="current-temperature">
               <span class="current-temperature-text">
                 ${stateObj.attributes.current_temperature}
-                ${
-                  stateObj.attributes.current_temperature
-                    ? html`
-                        <span class="uom"
-                          >${this.hass.config.unit_system.temperature}</span
-                        >
-                      `
-                    : ""
-                }
+                ${stateObj.attributes.current_temperature
+                  ? html`
+                      <span class="uom"
+                        >${this.hass.config.unit_system.temperature}</span
+                      >
+                    `
+                  : ""}
               </span>
             </div>
             <div class="climate-info">
-            <div id="set-temperature"></div>
-            <div class="current-mode">
-              ${this.hass!.localize(`state.climate.${stateObj.state}`)}
-              ${
-                stateObj.attributes.preset_mode
+              <div id="set-temperature"></div>
+              <div class="current-mode">
+                ${this.hass!.localize(`state.climate.${stateObj.state}`)}
+                ${stateObj.attributes.preset_mode
                   ? html`
                       -
                       ${this.hass!.localize(
@@ -155,13 +154,13 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
                         }`
                       ) || stateObj.attributes.preset_mode}
                     `
-                  : ""
-              }
-            </div>
-            <div class="modes">
-              ${stateObj.attributes.hvac_modes.map((modeItem) =>
-                this._renderIcon(modeItem, mode)
-              )}
+                  : ""}
+              </div>
+              <div class="modes">
+                ${stateObj.attributes.hvac_modes.map((modeItem) =>
+                  this._renderIcon(modeItem, mode)
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -204,9 +203,10 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
       !changedProps.has("_jQuery") &&
       (!oldHass || oldHass.states[this._config.entity] !== stateObj)
     ) {
-      const [sliderValue, uiValue] = this._genSliderValue(stateObj);
+      const [sliderValue, uiValue, sliderType] = this._genSliderValue(stateObj);
 
       this._jQuery("#thermostat", this.shadowRoot).roundSlider({
+        sliderType,
         value: sliderValue,
       });
       this._updateSetTemp(uiValue);
@@ -250,20 +250,14 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
     this._roundSliderStyle = loaded.roundSliderStyle;
     this._jQuery = loaded.jQuery;
 
-    const _sliderType =
-      stateObj.attributes.target_temp_low &&
-      stateObj.attributes.target_temp_high
-        ? "range"
-        : "min-range";
-
-    const [sliderValue, uiValue] = this._genSliderValue(stateObj);
+    const [sliderValue, uiValue, sliderType] = this._genSliderValue(stateObj);
 
     this._jQuery("#thermostat", this.shadowRoot).roundSlider({
       ...thermostatConfig,
       radius,
       min: stateObj.attributes.min_temp,
       max: stateObj.attributes.max_temp,
-      sliderType: _sliderType,
+      sliderType,
       change: (value) => this._setTemperature(value),
       drag: (value) => this._dragEvent(value),
       value: sliderValue,
@@ -272,7 +266,10 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
     this._updateSetTemp(uiValue);
   }
 
-  private _genSliderValue(stateObj: ClimateEntity): [string | number, string] {
+  private _genSliderValue(
+    stateObj: ClimateEntity
+  ): [string | number, string, string] {
+    let sliderType: string;
     let sliderValue: string | number;
     let uiValue: string;
 
@@ -280,6 +277,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
       stateObj.attributes.target_temp_low &&
       stateObj.attributes.target_temp_high
     ) {
+      sliderType = "range";
       sliderValue = `${stateObj.attributes.target_temp_low}, ${
         stateObj.attributes.target_temp_high
       }`;
@@ -291,6 +289,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
         false
       );
     } else {
+      sliderType = "min-range";
       sliderValue = stateObj.attributes.temperature;
       uiValue =
         stateObj.attributes.temperature !== null
@@ -298,7 +297,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
           : "";
     }
 
-    return [sliderValue, uiValue];
+    return [sliderValue, uiValue, sliderType];
   }
 
   private _updateSetTemp(value: string): void {

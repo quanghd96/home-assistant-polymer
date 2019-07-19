@@ -8,7 +8,7 @@
         "mailbox": "Почта",
         "shopping_list": "Список покупок",
         "dev-info": "Информация",
-        "developer_tools": "Инструменты разработчика",
+        "developer_tools": "Панель разработчика",
         "calendar": "Календарь",
         "profile": "Профиль"
     },
@@ -142,7 +142,7 @@
             "heat_pump": "Тепловой насос",
             "gas": "Газовый",
             "manual": "Ручной режим",
-            "heat_cool": "Авто"
+            "heat_cool": "Нагрев \/ Охлаждение"
         },
         "configurator": {
             "configure": "Настроить",
@@ -324,6 +324,9 @@
                     },
                     "mqtt": {
                         "title": "MQTT"
+                    },
+                    "info": {
+                        "title": "О системе"
                     }
                 }
             },
@@ -804,7 +807,8 @@
                     "step_done": "Настройка выполнена для {step}",
                     "close": "Закрыть",
                     "submit": "Подтвердить"
-                }
+                },
+                "logout": "Выйти"
             },
             "page-authorize": {
                 "initializing": "Инициализация",
