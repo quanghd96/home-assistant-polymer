@@ -23,7 +23,11 @@ import { loadRoundslider } from "../../../resources/jquery.roundslider.ondemand"
 import { UNIT_F } from "../../../common/const";
 import { fireEvent } from "../../../common/dom/fire_event";
 import { ThermostatCardConfig } from "./types";
-import { ClimateEntity, HvacMode } from "../../../data/climate";
+import {
+  ClimateEntity,
+  HvacMode,
+  compareClimateHvacModes,
+} from "../../../data/climate";
 
 const thermostatConfig = {
   radius: 150,
@@ -144,7 +148,13 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
             <div class="climate-info">
               <div id="set-temperature"></div>
               <div class="current-mode">
-                ${this.hass!.localize(`state.climate.${stateObj.state}`)}
+                ${stateObj.attributes.hvac_action
+                  ? this.hass!.localize(
+                      `state_attributes.climate.hvac_action.${
+                        stateObj.attributes.hvac_action
+                      }`
+                    )
+                  : this.hass!.localize(`state.climate.${stateObj.state}`)}
                 ${stateObj.attributes.preset_mode
                   ? html`
                       -
@@ -157,9 +167,10 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
                   : ""}
               </div>
               <div class="modes">
-                ${stateObj.attributes.hvac_modes.map((modeItem) =>
-                  this._renderIcon(modeItem, mode)
-                )}
+                ${stateObj.attributes.hvac_modes
+                  .concat()
+                  .sort(compareClimateHvacModes)
+                  .map((modeItem) => this._renderIcon(modeItem, mode))}
               </div>
             </div>
           </div>
@@ -208,6 +219,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
       this._jQuery("#thermostat", this.shadowRoot).roundSlider({
         sliderType,
         value: sliderValue,
+        disabled: sliderValue === null,
       });
       this._updateSetTemp(uiValue);
     }
@@ -261,6 +273,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
       change: (value) => this._setTemperature(value),
       drag: (value) => this._dragEvent(value),
       value: sliderValue,
+      disabled: sliderValue === null,
       step: this._stepSize,
     });
     this._updateSetTemp(uiValue);
@@ -268,9 +281,9 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
 
   private _genSliderValue(
     stateObj: ClimateEntity
-  ): [string | number, string, string] {
+  ): [string | number | null, string, string] {
     let sliderType: string;
-    let sliderValue: string | number;
+    let sliderValue: string | number | null;
     let uiValue: string;
 
     if (
@@ -290,11 +303,10 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
       );
     } else {
       sliderType = "min-range";
-      sliderValue = stateObj.attributes.temperature;
-      uiValue =
-        stateObj.attributes.temperature !== null
-          ? String(stateObj.attributes.temperature)
-          : "";
+      sliderValue = Number.isFinite(Number(stateObj.attributes.temperature))
+        ? stateObj.attributes.temperature
+        : null;
+      uiValue = sliderValue !== null ? String(sliderValue) : "";
     }
 
     return [sliderValue, uiValue, sliderType];
@@ -495,6 +507,10 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
         .rs-bar.rs-transition.rs-second {
           z-index: 20 !important;
         }
+        #thermostat .rs-readonly {
+          z-index: 10;
+          top: auto;
+        }
         #thermostat .rs-inner.rs-bg-color.rs-border,
         #thermostat .rs-overlay.rs-transition.rs-bg-color {
           background-color: var(--paper-card-background-color, white);
@@ -512,6 +528,7 @@ export class HuiThermostatCard extends LitElement implements LovelaceCard {
         #set-temperature {
           font-size: var(--set-temperature-font-size);
           margin-bottom: var(--set-temperature-margin-bottom);
+          min-height: 1.2em;
         }
         .title {
           font-size: var(--title-font-size);

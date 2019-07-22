@@ -29,6 +29,7 @@ import {
   CLIMATE_SUPPORT_SWING_MODE,
   CLIMATE_SUPPORT_AUX_HEAT,
   CLIMATE_SUPPORT_PRESET_MODE,
+  compareClimateHvacModes,
 } from "../../../data/climate";
 import { fireEvent } from "../../../common/dom/fire_event";
 import { classMap } from "lit-html/directives/class-map";
@@ -71,9 +72,7 @@ class MoreInfoClimate extends LitElement {
 
     const temperatureStepSize =
       stateObj.attributes.target_temp_step ||
-      hass.config.unit_system.temperature.indexOf("F") === -1
-        ? 0.5
-        : 1;
+      (hass.config.unit_system.temperature.indexOf("F") === -1 ? 0.5 : 1);
 
     const rtlDirection = computeRTLDirection(hass);
 
@@ -178,13 +177,16 @@ class MoreInfoClimate extends LitElement {
                 .selected=${stateObj.state}
                 @selected-changed=${this._handleOperationmodeChanged}
               >
-                ${stateObj.attributes.hvac_modes.map(
-                  (mode) => html`
-                    <paper-item item-name=${mode}>
-                      ${hass.localize(`state.climate.${mode}`)}
-                    </paper-item>
-                  `
-                )}
+                ${stateObj.attributes.hvac_modes
+                  .concat()
+                  .sort(compareClimateHvacModes)
+                  .map(
+                    (mode) => html`
+                      <paper-item item-name=${mode}>
+                        ${hass.localize(`state.climate.${mode}`)}
+                      </paper-item>
+                    `
+                  )}
               </paper-listbox>
             </ha-paper-dropdown-menu>
           </div>
@@ -204,11 +206,6 @@ class MoreInfoClimate extends LitElement {
                     .selected=${stateObj.attributes.preset_mode}
                     @selected-changed=${this._handlePresetmodeChanged}
                   >
-                    <paper-item item-name="">
-                      ${hass.localize(
-                        `state_attributes.climate.preset_mode.none`
-                      )}
-                    </paper-item>
                     ${stateObj.attributes.preset_modes!.map(
                       (mode) => html`
                         <paper-item item-name=${mode}>
