@@ -3,7 +3,6 @@ build-translations/*
 node_modules/*
 npm-debug.log
 .DS_Store
-hass_frontend/*
 .reify-cache
 demo/hademo-icons.html
 
