@@ -89,8 +89,12 @@ export const provideHass = (
   const localLanguage = getLocalLanguage();
 
   const hassObj: MockHomeAssistant = {
+    auth: {
+      data: {
+        hassUrl: "",
+      },
+    } as any,
     // JAVIS Home properties
-    auth: {} as any,
     connection: {
       addEventListener: () => undefined,
       removeEventListener: () => undefined,
@@ -182,6 +186,7 @@ export const provideHass = (
         ? response[1](hass(), method, path, parameters)
         : Promise.reject(`API Mock for ${path} is not implemented`);
     },
+    hassUrl: (path?) => path,
     fetchWithAuth: () => Promise.reject("Not implemented"),
     sendWS: (msg) => hassObj.connection.sendMessage(msg),
     callWS: (msg) => hassObj.connection.sendMessagePromise(msg),
