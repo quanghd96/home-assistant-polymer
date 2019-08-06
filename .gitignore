@@ -27,4 +27,4 @@ dist
 # Secrets
 .lokalise_token
 yarn-error.log
-hass_fronted/
+hass_frontend/
