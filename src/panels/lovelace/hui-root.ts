@@ -358,7 +358,7 @@ class HUIRoot extends LitElement {
           cursor: pointer;
         }
         #layout {
-          background-image: url(/local/background.jpg);
+          background-image: url(/static/images/background.jpg);
           background-size: cover;
           background-repeat: no-repeat;
         }

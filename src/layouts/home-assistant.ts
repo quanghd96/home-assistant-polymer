@@ -46,7 +46,7 @@ export class HomeAssistantAppEl extends HassElement {
     setTimeout(registerServiceWorker, 1000);
     /* polyfill for paper-dropdown */
     import(/* webpackChunkName: "polyfill-web-animations-next" */ "web-animations-js/web-animations-next-lite.min");
-    fetch("http://localhost:5005/update");
+    // fetch("http://localhost:5005/update");
   }
 
   protected updated(changedProps: PropertyValues): void {
