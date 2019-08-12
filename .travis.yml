@@ -9,17 +9,21 @@ script:
   - npm run build
   - hassio/script/build_hassio
   - cd hass_frontend
+  - mkdir hass_frontend
+  - mv * hass_frontend
+  - cp ../setup.py ./
+  - cp ../install_javis_hass.sh ./
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git init
-  - git remote 
   - git add .
-  - git commit -m "update new version"
+  - git commit -m "update"
   - git remote add origin https://github.com/quanghd96/home-assistant-build.git
-  - git push -uf origin master
 dist: trusty
 addons:
   sauce_connect: true
+  artifacts:
+    working_dir: hass_frontend
 branches:
   only:
   - master
