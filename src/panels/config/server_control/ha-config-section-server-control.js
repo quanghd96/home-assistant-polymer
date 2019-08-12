@@ -57,7 +57,7 @@ class HaConfigSectionServerControl extends LocalizeMixin(PolymerElement) {
           >[[localize('ui.panel.config.server_control.description')]]</span
         >
 
-        <template is="dom-if" if="[[showAdvanced]]">
+        <template is="dom-if">
           <ha-card
             header="[[localize('ui.panel.config.server_control.section.validation.heading')]]"
           >
