@@ -6,6 +6,7 @@ git remote add origin git@github.com:quanghd96/home-assistant-build.git
 mkdir hass_frontend
 mv * hass_frontend
 cp ../setup.py ./
+cp ../install_javis_hass.sh ./
 git add .
 git commit -m "update"
 git push --set-upstream origin master -f
