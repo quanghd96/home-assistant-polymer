@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="home-assistant-frontend",
-    version="20190811.0",
+    version="20190815.0",
     description="The JAVIS Home frontend",
     url="https://github.com/home-assistant/home-assistant-polymer",
     author="The JAVIS Home Authors",
