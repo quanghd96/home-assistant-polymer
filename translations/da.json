@@ -747,7 +747,9 @@
                         "unavailable": "Denne enhed er ikke tilgængelig i øjeblikket.",
                         "default_name": "Nyt område",
                         "delete": "SLET",
-                        "update": "OPDATER"
+                        "update": "OPDATER",
+                        "enabled_label": "Aktivér enhed",
+                        "enabled_cause": "Deaktiveret af {cause}."
                     }
                 },
                 "person": {
@@ -1294,6 +1296,17 @@
                 "updater": {
                     "title": "Opdateringsvejledning"
                 }
+            },
+            "options_flow": {
+                "form": {
+                    "header": "Indstillinger"
+                },
+                "success": {
+                    "description": "Indstillingerne blev gemt."
+                }
+            },
+            "config_entry_system_options": {
+                "title": "Systemindstillinger"
             }
         },
         "auth_store": {
@@ -1389,5 +1402,11 @@
         "system-admin": "Administratorer",
         "system-users": "Brugere",
         "system-read-only": "Read-Only-brugere"
+    },
+    "config_entry": {
+        "disabled_by": {
+            "user": "Bruger",
+            "integration": "Integration"
+        }
     }
 }
